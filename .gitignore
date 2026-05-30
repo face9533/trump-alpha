@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+data/posts.json
+data/reviews.json
+data/cron.log
+data/app.log
+.DS_Store
+.claude/
+
+# 注意：web/data.json 故意【不】忽略——它就是要发布到网上的内容

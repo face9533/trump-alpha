@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>特朗普喊单追踪</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">TRUTH<span>·</span>ALPHA</div>
+        <h1>特朗普喊单追踪 <span class="sub">Trump Truth Social → 股票复盘</span></h1>
+      </div>
+      <div class="topbar-meta">
+        <div class="asof">
+          <span class="label">复盘基准日</span>
+          <span class="value" id="asof-date">—</span>
+        </div>
+        <div class="gen">
+          <span class="label">数据更新于</span>
+          <span class="value" id="gen-time">—</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- 加载/错误状态 -->
+      <div id="status" class="status-box">正在加载数据…</div>
+
+      <!-- 核心指标 -->
+      <section id="stats" class="stat-grid" hidden></section>
+
+      <!-- 每日复盘 -->
+      <section id="review" class="panel" hidden>
+        <div class="panel-head">
+          <h2>每日复盘</h2>
+          <span class="panel-date" id="review-date"></span>
+        </div>
+        <p class="headline" id="review-headline"></p>
+        <div class="review-cols">
+          <div class="review-col">
+            <h3>当日新增喊单</h3>
+            <div id="review-new"></div>
+          </div>
+          <div class="review-col">
+            <h3>当日涨跌榜<span class="hint">追踪标的在基准日的表现</span></h3>
+            <div id="review-movers"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 复盘历史 -->
+      <section id="review-history" class="panel" hidden>
+        <div class="panel-head">
+          <h2>复盘历史</h2>
+          <span class="hint">每天自动存一条 · 最新在上 · 漏看几天也能补回来</span>
+        </div>
+        <div id="rh-list" class="rh-list"></div>
+      </section>
+
+      <!-- 标的总览 -->
+      <section id="tickers" class="panel" hidden>
+        <div class="panel-head">
+          <h2>标的总览</h2>
+          <span class="hint">点卡片看该标的的全部喊单 · 竖线＝喊单日</span>
+        </div>
+        <div id="ticker-grid" class="ticker-grid"></div>
+      </section>
+
+      <!-- 喊单后 K 线复盘 -->
+      <section id="klines" class="panel" hidden>
+        <div class="panel-head">
+          <h2>喊单后 K 线复盘</h2>
+          <div class="kline-controls">
+            <span class="hint">蜡烛图 · 金色虚线＝喊单当日 · 看他喊完之后怎么走</span>
+            <div class="filters" id="kline-filters"></div>
+          </div>
+        </div>
+        <div id="kline-list" class="kline-list"></div>
+      </section>
+
+      <!-- 全部喊单明细 -->
+      <section id="mentions" class="panel" hidden>
+        <div class="panel-head">
+          <h2>全部喊单明细</h2>
+          <div class="filters" id="filters"></div>
+        </div>
+        <div class="table-wrap">
+          <table id="mentions-table">
+            <thead>
+              <tr>
+                <th data-sort="post_date">喊单日期</th>
+                <th data-sort="ticker">标的</th>
+                <th>情绪</th>
+                <th data-sort="entry_price" class="num">基准价</th>
+                <th data-sort="latest_price" class="num">最新价</th>
+                <th data-sort="return_since" class="num">自喊单以来</th>
+                <th data-sort="return_next_day" class="num">次日</th>
+                <th data-sort="return_1w" class="num">一周</th>
+                <th data-sort="max_gain" class="num">最大浮盈</th>
+                <th class="excerpt-col">原文摘录</th>
+              </tr>
+            </thead>
+            <tbody id="mentions-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>数据来源：Truth Social 公开存档（trumpstruth.org）· 行情：Yahoo Finance（yfinance）</p>
+        <p class="disclaimer">⚠️ 本工具仅做信息追踪与历史复盘，<b>不构成任何投资建议</b>。历史表现不代表未来，喊单识别基于关键词匹配可能有误差，请自行核实。</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- 标的详情弹层 -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
