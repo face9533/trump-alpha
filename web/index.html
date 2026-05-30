@@ -34,6 +34,29 @@
       <!-- 核心指标 -->
       <section id="stats" class="stat-grid" hidden></section>
 
+      <!-- 我的持仓（私人版，仅当存在 positions.json 时显示）-->
+      <section id="positions" class="panel" hidden>
+        <div class="panel-head">
+          <h2>我的持仓 × 喊单 <span class="private-badge">私人 · 仅你可见</span></h2>
+          <span class="hint" id="pos-asof"></span>
+        </div>
+        <div id="pos-summary" class="pos-summary"></div>
+        <div id="pos-overlap" class="pos-overlap"></div>
+        <div class="table-wrap">
+          <table id="pos-table">
+            <thead>
+              <tr>
+                <th>标的</th><th class="num">占比</th><th class="num">数量</th>
+                <th class="num">现价</th><th class="num">市值(USD)</th>
+                <th class="num">浮动盈亏</th><th class="num">盈亏%</th>
+                <th>特朗普喊过？</th>
+              </tr>
+            </thead>
+            <tbody id="pos-body"></tbody>
+          </table>
+        </div>
+      </section>
+
       <!-- 统计规律 -->
       <section id="analytics" class="panel" hidden>
         <div class="panel-head">

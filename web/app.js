@@ -429,6 +429,58 @@ function bindSorting() {
   });
 }
 
+/* ---------- 我的持仓（私人版）---------- */
+function fmtMoney(v) {
+  return (Math.round(v * 100) / 100).toLocaleString('en-US',
+    { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+async function loadPositions() {
+  try {
+    const res = await fetch('positions.json?t=' + Date.now());
+    if (!res.ok) return;            // 公开版没有此文件，正常跳过
+    renderPositions(await res.json());
+  } catch (e) { /* 忽略 */ }
+}
+
+function renderPositions(p) {
+  document.body.classList.add('private');
+  $('#pos-asof').textContent =
+    `持仓快照 ${p.generated_at.replace('T', ' ').slice(0, 16)} · 行情基准 ${p.stock_data_as_of}`;
+
+  const s = p.summary;
+  const cards = [
+    ['净清算值', `${p.base_currency} ${fmtMoney(s.net_liquidation)}`, ''],
+    ['可用资金', `${p.base_currency} ${fmtMoney(s.available_funds)}`, ''],
+    ['美股浮盈', `${s.total_unrealized_usd >= 0 ? '+' : '-'}$${fmtMoney(Math.abs(s.total_unrealized_usd))}`,
+      pctClass(s.total_unrealized_usd)],
+    ['杠杆', s.leverage, ''],
+  ];
+  $('#pos-summary').innerHTML = cards.map(([k, v, c]) =>
+    `<div class="ps-card"><div class="ps-k">${k}</div><div class="ps-v ${c}">${v}</div></div>`).join('');
+
+  const ov = p.positions.filter(x => x.is_trump_call);
+  $('#pos-overlap').innerHTML = ov.length
+    ? ov.map(x => `<div class="ov-line">🎯 你持有的 <b>${x.ticker}（${x.name}）</b> 是特朗普喊单股：他 ${x.trump.last_date} 喊过，喊单后至今平均 <span class="pct ${pctClass(x.trump.avg_return_since)}">${pctText(x.trump.avg_return_since)}</span>；你这笔浮盈 <span class="pct ${pctClass(x.pnl_pct)}">${pctText(x.pnl_pct)}</span>。</div>`).join('')
+    : '<div class="ov-line">当前持仓里没有正在被特朗普喊单的股票。</div>';
+
+  $('#pos-body').innerHTML = p.positions.map(x => `
+    <tr class="${x.is_trump_call ? 'is-call' : ''}">
+      <td><span class="tk-badge">${x.ticker}</span> <span class="tc-company">${x.name}</span></td>
+      <td class="num">${x.weight}%</td>
+      <td class="num">${x.position}</td>
+      <td class="num">$${fmtP(x.market_price)}</td>
+      <td class="num">$${fmtMoney(x.market_value)}</td>
+      <td class="num"><span class="pct ${pctClass(x.unrealized_pnl)}">${x.unrealized_pnl >= 0 ? '+' : '-'}$${fmtMoney(Math.abs(x.unrealized_pnl))}</span></td>
+      <td class="num">${pctHTML(x.pnl_pct)}</td>
+      <td>${x.is_trump_call
+        ? `<span class="chip crypto">喊过 ${x.trump.calls}次 · 后均 ${pctText(x.trump.avg_return_since)}</span>`
+        : '<span class="tc-company">—</span>'}</td>
+    </tr>`).join('');
+
+  $('#positions').hidden = false;
+}
+
 /* ---------- 启动 ---------- */
 async function boot() {
   bindSorting();
@@ -440,6 +492,7 @@ async function boot() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     DATA = await res.json();
     render();
+    loadPositions();   // 私人版会加载持仓；公开版无此文件，自动跳过
   } catch (e) {
     const s = $('#status');
     s.className = 'status-box error';
