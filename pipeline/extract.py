@@ -70,6 +70,7 @@ def _load_config():
                 "require_context": [w.lower() for w in c.get("require_context", [])],
             })
         cfg["compiled"] = compiled
+        cfg["sector_map"] = cfg.get("sectors", {})
         cfg["pos"] = set(w.lower() for w in cfg["positive_words"])
         cfg["neg"] = set(w.lower() for w in cfg["negative_words"])
         _CFG = cfg
@@ -141,6 +142,7 @@ def detect(text: str, card_title: str = "", card_description: str = "") -> list[
             "ticker": c["ticker"],
             "company": c["name"],
             "type": c["type"],
+            "sector": cfg["sector_map"].get(c["ticker"], "其他"),
             "matched": matched_alias,
             "in_body": in_body,
             "sentiment": sentiment,

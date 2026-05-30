@@ -2,6 +2,7 @@
 并生成面向前一交易日的每日复盘。"""
 from __future__ import annotations
 
+from collections import defaultdict
 from datetime import date, datetime, timedelta
 
 from . import prices as P
@@ -62,6 +63,7 @@ def build_mentions(annotated_posts: list[dict],
                 "ticker": mt["ticker"],
                 "company": mt["company"],
                 "type": mt["type"],
+                "sector": mt.get("sector", "其他"),
                 "sentiment": mt["sentiment"],
                 "matched": mt["matched"],
                 "entry_date": entry["date"],
@@ -202,6 +204,116 @@ def daily_review(records: list[dict], history: dict[str, list[dict]],
         "n_up": len(up),
         "n_tracked": len(movers),
     }
+
+
+def analytics(records: list[dict], history: dict[str, list[dict]],
+              max_days: int = 20) -> dict:
+    """提炼喊单规律：喊单后涨幅轨迹、各时间窗胜率、各行业胜率，以及结论速览。"""
+    valid = [r for r in records if r["return_since"] is not None]
+    if not valid:
+        return {"count": 0}
+
+    # ① 涨幅轨迹：喊单后第 k 个交易日的平均累计收益% 和胜率。
+    # 用【固定样本】——只取喊单后已满 max_days 个交易日的，保证每一天都是同一批喊单，
+    # 避免"近期喊单数据不全"造成尾部失真。
+    cohort = []
+    for r in records:
+        s = history.get(r["ticker"], [])
+        ei = next((i for i, row in enumerate(s) if row["date"] == r["entry_date"]), None)
+        if ei is not None and s[ei]["close"] and ei + max_days < len(s):
+            cohort.append((s, ei))
+    trajectory = []
+    for k in range(max_days + 1):
+        vals = [(s[ei + k]["close"] / s[ei]["close"] - 1) * 100 for (s, ei) in cohort]
+        if not vals:
+            break
+        trajectory.append({
+            "day": k,
+            "avg": round(sum(vals) / len(vals), 2),
+            "win": round(sum(1 for v in vals if v > 0) / len(vals) * 100, 1),
+            "n": len(vals),
+        })
+    peak = max((t for t in trajectory if t["day"] > 0), key=lambda t: t["avg"], default=None)
+    cohort_n = len(cohort)
+
+    # ② 各时间窗：平均涨幅 + 胜率
+    horizons = []
+    for key, field in [("次日", "return_next_day"), ("3日", "return_3d"),
+                       ("一周", "return_1w"), ("至今", "return_since")]:
+        vals = [r[field] for r in records if r.get(field) is not None]
+        if vals:
+            horizons.append({
+                "key": key,
+                "avg": round(sum(vals) / len(vals), 2),
+                "win": round(sum(1 for v in vals if v > 0) / len(vals) * 100, 1),
+                "n": len(vals),
+            })
+
+    # ③ 各行业胜率（按自喊单以来）
+    by_sec: dict[str, list] = defaultdict(list)
+    for r in valid:
+        by_sec[r.get("sector", "其他")].append(r)
+    sectors = []
+    for sec, rs in by_sec.items():
+        rets = [r["return_since"] for r in rs]
+        exs = [r["excess_since"] for r in rs if r["excess_since"] is not None]
+        sectors.append({
+            "sector": sec, "n": len(rs),
+            "avg": round(sum(rets) / len(rets), 2),
+            "win": round(sum(1 for v in rets if v > 0) / len(rets) * 100, 1),
+            "excess": round(sum(exs) / len(exs), 2) if exs else None,
+        })
+    sectors.sort(key=lambda x: (x["win"], x["avg"]), reverse=True)
+
+    return {
+        "count": len(valid),
+        "trajectory": trajectory,
+        "peak": peak,
+        "cohort_n": cohort_n,
+        "horizons": horizons,
+        "sectors": sectors,
+        "findings": _findings(valid, trajectory, peak, horizons, sectors, cohort_n),
+        "max_days": max_days,
+    }
+
+
+def _findings(valid, trajectory, peak, horizons, sectors, cohort_n=0) -> list[str]:
+    out = []
+    n = len(valid)
+    avg = sum(r["return_since"] for r in valid) / n
+    win = sum(1 for r in valid if r["return_since"] > 0) / n * 100
+    out.append(f"近期共 {n} 次有效喊单，整体胜率 {win:.0f}%，自喊单以来平均 {avg:+.1f}%。")
+
+    if peak and trajectory:
+        late = [t for t in trajectory if t["day"] > peak["day"]]
+        faded = bool(late) and late[-1]["avg"] < peak["avg"] - 0.5
+        last_day = trajectory[-1]["day"]
+        if peak["day"] <= 3:
+            s = f"涨幅集中在喊单后 1–3 个交易日，平均第 {peak['day']} 天见高点（{peak['avg']:+.1f}%）"
+            s += "，之后多震荡/回落，偏短线。" if faded else "，并基本维持。"
+        elif peak["day"] >= last_day - 1:
+            s = (f"喊单后并非次日就冲高，而是逐步走强——到第 {peak['day']} 个交易日"
+                 f"（约两周）平均累计 {peak['avg']:+.1f}%且仍在走高，趋势偏中线。")
+        else:
+            s = f"平均在喊单后第 {peak['day']} 个交易日见高点（{peak['avg']:+.1f}%）"
+            s += "，随后回落。" if faded else "。"
+        out.append(f"上涨周期：{s}（基于 {cohort_n} 次满 {last_day} 日的喊单）")
+
+    if horizons:
+        best_h = max(horizons, key=lambda h: h["win"])
+        out.append(f"按持有时长看，「{best_h['key']}」胜率最高（{best_h['win']:.0f}%）。")
+
+    big = [s for s in sectors if s["n"] >= 3]
+    if big:
+        top = big[0]
+        out.append(f"行业里 {top['sector']} 胜率最高（{top['win']:.0f}%，{top['n']} 次，平均 {top['avg']:+.1f}%）。")
+        worst = min(big, key=lambda s: s["win"])
+        if worst["sector"] != top["sector"]:
+            out.append(f"相对最弱的是 {worst['sector']}（胜率 {worst['win']:.0f}%，{worst['n']} 次）。")
+    else:
+        out.append("各行业样本多不足 3 次，行业胜率仅供参考。")
+
+    return out
 
 
 def _headline(as_of: date, new_today: list, movers: list, up: list) -> str:

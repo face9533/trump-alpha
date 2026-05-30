@@ -43,6 +43,7 @@ def run(since_days: int = 60, verbose: bool = True, scrape_live: bool = True) ->
         records = analyze.build_mentions(annotated, history, bench=bench)
 
     summary = analyze.summarize(records)
+    stats = analyze.analytics(records, history, max_days=10)
 
     # 复盘基准日 = 最新美股交易日（"前一天"）。优先看股票（加密货币周末也有行情，
     # 会把基准日带到周末，导致复盘只剩币），股票缺失时再退回全体最新日。
@@ -98,6 +99,7 @@ def run(since_days: int = 60, verbose: bool = True, scrape_live: bool = True) ->
         "as_of_date": as_of.isoformat(),
         "window_days": since_days,
         "summary": summary,
+        "analytics": stats,
         "daily_review": review,
         "review_history": review_history[:60],
         "mentions": records,

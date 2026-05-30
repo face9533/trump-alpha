@@ -114,6 +114,43 @@ function postCallWindow(ticker, entryDate, maxAfter = 30) {
   return ch.slice(Math.max(0, idx - 3), Math.min(ch.length, idx + maxAfter + 1));
 }
 
+// 喊单后涨幅轨迹折线图
+function trajChart(traj, peak) {
+  const w = 560, h = 196, padL = 10, padR = 42, padT = 20, padB = 22;
+  if (!traj || traj.length < 2) return '<div class="cs-empty">轨迹数据不足。</div>';
+  const ys = traj.map(t => t.avg);
+  const minY = Math.min(0, ...ys), maxY = Math.max(...ys, 0.5);
+  const span = (maxY - minY) || 1;
+  const plotW = w - padL - padR, plotH = h - padT - padB;
+  const X = i => padL + (i / (traj.length - 1)) * plotW;
+  const Y = v => padT + (1 - (v - minY) / span) * plotH;
+  const pts = traj.map((t, i) => `${X(i).toFixed(1)},${Y(t.avg).toFixed(1)}`).join(' ');
+  const area = `${X(0).toFixed(1)},${Y(minY).toFixed(1)} ${pts} ${X(traj.length - 1).toFixed(1)},${Y(minY).toFixed(1)}`;
+  const zeroY = Y(0).toFixed(1);
+
+  let peakEl = '';
+  if (peak) {
+    const pi = traj.findIndex(t => t.day === peak.day);
+    if (pi >= 0) {
+      const px = X(pi), py = Y(peak.avg);
+      peakEl = `<line x1="${px.toFixed(1)}" y1="${padT}" x2="${px.toFixed(1)}" y2="${h - padB}" stroke="#d4a943" stroke-dasharray="3 3" stroke-width="1" opacity=".7"/>`
+        + `<circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="3.6" fill="#d4a943"/>`
+        + `<text x="${px.toFixed(1)}" y="${(py - 9).toFixed(1)}" fill="#d4a943" font-size="11" text-anchor="middle" font-weight="700">第${peak.day}日 ${pctText(peak.avg)}</text>`;
+    }
+  }
+  const xlabels = traj.map((t, i) => t.day % 2 === 0
+    ? `<text x="${X(i).toFixed(1)}" y="${h - 6}" fill="#5a6076" font-size="9" text-anchor="middle">${t.day}</text>` : '').join('');
+
+  return `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" class="cs">
+    <line x1="${padL}" y1="${zeroY}" x2="${w - padR}" y2="${zeroY}" stroke="#2b3142" stroke-width="1"/>
+    <polygon points="${area}" fill="rgba(22,199,132,.12)"/>
+    <polyline points="${pts}" fill="none" stroke="#16c784" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    ${peakEl}${xlabels}
+    <text x="${w - padR + 5}" y="${(Y(maxY) + 3).toFixed(1)}" fill="#5a6076" font-size="9">${pctText(maxY)}</text>
+    <text x="${w - padR + 5}" y="${(parseFloat(zeroY) + 3).toFixed(1)}" fill="#5a6076" font-size="9">0%</text>
+  </svg>`;
+}
+
 /* ---------- 主渲染 ---------- */
 function render() {
   const d = DATA;
@@ -121,6 +158,7 @@ function render() {
   $('#gen-time').textContent = d.generated_at.replace('T', ' ').slice(0, 16);
 
   renderStats(d.summary);
+  renderAnalytics(d);
   renderReview(d.daily_review);
   renderReviewHistory(d);
   renderTickers(d);
@@ -129,7 +167,7 @@ function render() {
   renderTable(d);
 
   $('#status').hidden = true;
-  ['#stats', '#review', '#review-history', '#tickers', '#klines', '#mentions']
+  ['#stats', '#analytics', '#review', '#review-history', '#tickers', '#klines', '#mentions']
     .forEach(s => { $(s).hidden = false; });
 }
 
@@ -158,6 +196,35 @@ function renderStats(s) {
       <div class="note">${c.note}</div>`;
     box.appendChild(e);
   });
+}
+
+function renderAnalytics(d) {
+  const a = d.analytics;
+  if (!a || !a.count) { $('#analytics').hidden = true; return; }
+
+  $('#findings').innerHTML = (a.findings || []).map((f, i) =>
+    `<div class="finding"><span class="fnum">${i + 1}</span><span>${escapeHTML(f)}</span></div>`).join('');
+
+  $('#traj-cap').textContent = `同一批 ${a.cohort_n} 次喊单 · 横轴＝喊单后第几个交易日`;
+  $('#traj-chart').innerHTML = trajChart(a.trajectory, a.peak);
+
+  $('#horizons').innerHTML = (a.horizons || []).map(h =>
+    `<div class="hz">
+       <div class="hz-k">${h.key}</div>
+       <div class="hz-v ${pctClass(h.avg)}">${pctText(h.avg)}</div>
+       <div class="hz-w">胜率 ${h.win}%</div>
+     </div>`).join('');
+
+  $('#sector-bars').innerHTML = (a.sectors || []).map(s => {
+    const small = s.n < 3 ? '<span class="sb-small">样本少</span>' : '';
+    const tone = s.win >= 60 ? 'good' : s.win >= 40 ? 'mid' : 'bad';
+    return `<div class="sb-row">
+      <div class="sb-name">${s.sector}${small}</div>
+      <div class="sb-track"><div class="sb-fill ${tone}" style="width:${Math.max(4, s.win)}%"></div></div>
+      <div class="sb-win">${s.win}%</div>
+      <div class="sb-meta">${s.n}次 · 均${pctText(s.avg)}${s.excess == null ? '' : ' · 超额' + pctText(s.excess)}</div>
+    </div>`;
+  }).join('');
 }
 
 function renderReview(r) {

@@ -59,6 +59,22 @@
     { "ticker": "ETH-USD", "name": "以太坊",          "type": "crypto", "aliases": ["Ethereum"] },
     { "ticker": "TRUMP-USD", "name": "TRUMP 币",      "type": "crypto", "aliases": ["$TRUMP", "Trump Coin", "Official Trump"] }
   ],
+  "sectors": {
+    "AAPL": "科技", "NVDA": "科技", "META": "科技", "AMZN": "科技", "GOOGL": "科技",
+    "MSFT": "科技", "ORCL": "科技", "INTC": "科技", "AMD": "科技", "PLTR": "科技",
+    "TSM": "科技", "QCOM": "科技", "MU": "科技", "CSCO": "科技", "IBM": "科技", "T": "科技",
+    "JPM": "金融", "GS": "金融", "C": "金融", "BAC": "金融", "WFC": "金融", "HOOD": "金融", "COIN": "金融",
+    "PFE": "医药", "LLY": "医药", "MRK": "医药", "JNJ": "医药", "MRNA": "医药",
+    "UNH": "医药", "AZN": "医药", "NVO": "医药",
+    "LMT": "国防军工", "RTX": "国防军工", "NOC": "国防军工", "GD": "国防军工",
+    "BA": "航空航天", "GE": "航空航天",
+    "XOM": "能源", "CVX": "能源", "OXY": "能源",
+    "TSLA": "汽车", "F": "汽车", "GM": "汽车",
+    "KO": "消费", "WMT": "消费", "MCD": "消费", "NKE": "消费", "HOG": "消费",
+    "DIS": "媒体", "PARA": "媒体", "DJT": "媒体",
+    "X": "工业", "CAT": "工业", "DE": "工业",
+    "BTC-USD": "加密货币", "ETH-USD": "加密货币", "TRUMP-USD": "加密货币"
+  },
   "positive_words": ["great", "love", "best", "tremendous", "strong", "buy", "incredible", "fantastic", "amazing", "support", "win", "winning", "wonderful", "genius", "smart", "booming", "boom", "record", "powerful", "successful", "endorse", "endorsement", "honor", "respect", "fortune", "rich", "soar", "surge"],
   "negative_words": ["terrible", "disaster", "failing", "fail", "bad", "weak", "boycott", "sue", "lawsuit", "fraud", "rip off", "ripoff", "horrible", "disgrace", "loser", "crooked", "corrupt", "tariff", "tariffs", "sanction", "ban", "investigate", "crash", "collapse", "scam", "fake", "rigged"]
 }

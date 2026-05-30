@@ -34,6 +34,26 @@
       <!-- 核心指标 -->
       <section id="stats" class="stat-grid" hidden></section>
 
+      <!-- 统计规律 -->
+      <section id="analytics" class="panel" hidden>
+        <div class="panel-head">
+          <h2>统计规律</h2>
+          <span class="hint">从历史喊单提炼的重点 · 样本有限，仅供参考，非投资建议</span>
+        </div>
+        <div id="findings" class="findings"></div>
+        <div class="analytics-grid">
+          <div class="ana-card">
+            <h3>喊单后涨幅轨迹 <span class="hint" id="traj-cap"></span></h3>
+            <div id="traj-chart"></div>
+            <div id="horizons" class="horizons"></div>
+          </div>
+          <div class="ana-card">
+            <h3>行业胜率排行 <span class="hint">按"自喊单以来"</span></h3>
+            <div id="sector-bars" class="sector-bars"></div>
+          </div>
+        </div>
+      </section>
+
       <!-- 每日复盘 -->
       <section id="review" class="panel" hidden>
         <div class="panel-head">
