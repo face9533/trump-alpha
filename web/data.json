@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-07T07:11:43",
+  "generated_at": "2026-06-08T07:11:44",
   "as_of_date": "2026-06-05",
   "window_days": 60,
   "summary": {
     "count": 27,
     "unique_tickers": 19,
     "win_rate": 59.3,
-    "avg_return_since": 2.56,
-    "avg_excess_since": -1.34,
+    "avg_return_since": 2.66,
+    "avg_excess_since": -1.24,
     "beat_market_rate": 51.9,
     "bull_count": 7,
     "bull_win_rate": 71.4,
@@ -19,7 +19,7 @@
     "worst": {
       "ticker": "BTC-USD",
       "company": "比特币",
-      "return": -18.16
+      "return": -16.92
     }
   },
   "analytics": {
@@ -29,76 +29,76 @@
         "day": 0,
         "avg": 0.0,
         "win": 0.0,
-        "n": 26
+        "n": 27
       },
       {
         "day": 1,
-        "avg": 0.67,
-        "win": 61.5,
-        "n": 26
+        "avg": 0.64,
+        "win": 59.3,
+        "n": 27
       },
       {
         "day": 2,
-        "avg": -0.51,
-        "win": 50.0,
-        "n": 26
+        "avg": -0.48,
+        "win": 51.9,
+        "n": 27
       },
       {
         "day": 3,
         "avg": 0.15,
-        "win": 46.2,
-        "n": 26
+        "win": 48.1,
+        "n": 27
       },
       {
         "day": 4,
-        "avg": 0.13,
-        "win": 53.8,
-        "n": 26
+        "avg": 0.02,
+        "win": 51.9,
+        "n": 27
       },
       {
         "day": 5,
-        "avg": 1.36,
-        "win": 69.2,
-        "n": 26
+        "avg": 0.96,
+        "win": 66.7,
+        "n": 27
       },
       {
         "day": 6,
-        "avg": 1.71,
-        "win": 57.7,
-        "n": 26
+        "avg": 1.16,
+        "win": 55.6,
+        "n": 27
       },
       {
         "day": 7,
-        "avg": 2.18,
-        "win": 65.4,
-        "n": 26
+        "avg": 1.61,
+        "win": 63.0,
+        "n": 27
       },
       {
         "day": 8,
-        "avg": 3.23,
-        "win": 65.4,
-        "n": 26
+        "avg": 2.48,
+        "win": 63.0,
+        "n": 27
       },
       {
         "day": 9,
-        "avg": 2.47,
-        "win": 61.5,
-        "n": 26
+        "avg": 1.74,
+        "win": 59.3,
+        "n": 27
       },
       {
         "day": 10,
-        "avg": 2.36,
-        "win": 65.4,
-        "n": 26
+        "avg": 1.68,
+        "win": 63.0,
+        "n": 27
       }
     ],
     "peak": {
       "day": 8,
-      "avg": 3.23,
-      "win": 65.4,
-      "n": 26
+      "avg": 2.48,
+      "win": 63.0,
+      "n": 27
     },
-    "cohort_n": 26,
+    "cohort_n": 27,
     "horizons": [
       {
         "key": "次日",
@@ -120,7 +120,7 @@
       },
       {
         "key": "至今",
-        "avg": 2.56,
+        "avg": 2.66,
         "win": 59.3,
         "n": 27
       }
@@ -164,14 +164,14 @@
       {
         "sector": "加密货币",
         "n": 2,
-        "avg": -17.71,
+        "avg": -16.47,
         "win": 0.0,
-        "excess": -15.72
+        "excess": -14.47
       }
     ],
     "findings": [
-      "近期共 27 次有效喊单，整体胜率 59%，自喊单以来平均 +2.6%。",
-      "上涨周期：平均在喊单后第 8 个交易日见高点（+3.2%），随后回落。（基于 26 次满 10 日的喊单）",
+      "近期共 27 次有效喊单，整体胜率 59%，自喊单以来平均 +2.7%。",
+      "上涨周期：平均在喊单后第 8 个交易日见高点（+2.5%），随后回落。（基于 27 次满 10 日的喊单）",
       "按持有时长看，「一周」胜率最高（67%）。",
       "行业里 金融 胜率最高（100%，3 次，平均 +6.2%）。",
       "相对最弱的是 医药（胜率 56%，9 次）。"
@@ -273,7 +273,7 @@
         "company": "比特币",
         "day_move": -4.51,
         "sentiment": "neutral",
-        "return_since": -17.26
+        "return_since": -16.01
       },
       {
         "ticker": "GS",
@@ -417,7 +417,7 @@
           "company": "比特币",
           "day_move": -4.51,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "GS",
@@ -574,7 +574,7 @@
           "company": "比特币",
           "day_move": -0.33,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "PLTR",
@@ -731,7 +731,7 @@
           "company": "比特币",
           "day_move": -4.03,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "DJT",
@@ -888,7 +888,7 @@
           "company": "比特币",
           "day_move": -6.47,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         }
       ],
       "n_up": 6,
@@ -996,7 +996,7 @@
           "company": "比特币",
           "day_move": -3.07,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "AZN",
@@ -1139,7 +1139,7 @@
           "company": "比特币",
           "day_move": -0.22,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "AMZN",
@@ -1317,7 +1317,7 @@
           "company": "比特币",
           "day_move": -1.09,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         }
       ],
       "n_up": 12,
@@ -1454,7 +1454,7 @@
           "company": "比特币",
           "day_move": -1.95,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "PLTR",
@@ -1619,7 +1619,7 @@
           "company": "比特币",
           "day_move": -1.88,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         }
       ],
       "n_up": 9,
@@ -1762,7 +1762,7 @@
           "company": "比特币",
           "day_move": -2.65,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         }
       ],
       "n_up": 8,
@@ -1863,7 +1863,7 @@
           "company": "比特币",
           "day_move": 0.11,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "INTC",
@@ -2027,7 +2027,7 @@
           "company": "比特币",
           "day_move": 0.92,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "DJT",
@@ -2135,7 +2135,7 @@
           "company": "比特币",
           "day_move": -0.26,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "NVDA",
@@ -2285,7 +2285,7 @@
           "company": "比特币",
           "day_move": -0.61,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "AAPL",
@@ -2428,7 +2428,7 @@
           "company": "比特币",
           "day_move": -2.45,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "DIS",
@@ -2508,7 +2508,7 @@
           "company": "比特币",
           "day_move": 2.24,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "GS",
@@ -2742,7 +2742,7 @@
           "company": "比特币",
           "day_move": -1.49,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "C",
@@ -2942,7 +2942,7 @@
           "company": "比特币",
           "day_move": -1.53,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "MU",
@@ -3064,7 +3064,7 @@
           "company": "比特币",
           "day_move": -0.5,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "AZN",
@@ -3193,7 +3193,7 @@
           "company": "比特币",
           "day_move": 0.22,
           "sentiment": "neutral",
-          "return_since": -17.26
+          "return_since": -16.01
         },
         {
           "ticker": "AZN",
@@ -3988,18 +3988,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-28",
       "entry_price": 73536.5547,
-      "latest_date": "2026-06-06",
-      "latest_price": 60844.0,
-      "return_since": -17.26,
+      "latest_date": "2026-06-07",
+      "latest_price": 61766.0,
+      "return_since": -16.01,
       "return_next_day": -0.22,
       "return_3d": 0.06,
       "return_1w": -9.29,
       "max_gain": 1.26,
       "max_drawdown": -19.62,
       "bench_since": -2.26,
-      "excess_since": -15.0,
-      "days_tracked": 9,
-      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -17.3%；期间最高浮盈 +1.3%，最大回撤 -19.6%。 喊单后不升反跌。（同期标普 -2.3%，超额 -15.0%）"
+      "excess_since": -13.75,
+      "days_tracked": 10,
+      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -16.0%；期间最高浮盈 +1.3%，最大回撤 -19.6%。 喊单后不升反跌。（同期标普 -2.3%，超额 -13.8%）"
     },
     {
       "post_id": "38814",
@@ -4016,18 +4016,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-27",
       "entry_price": 74344.7031,
-      "latest_date": "2026-06-06",
-      "latest_price": 60844.0,
-      "return_since": -18.16,
+      "latest_date": "2026-06-07",
+      "latest_price": 61766.0,
+      "return_since": -16.92,
       "return_next_day": -1.09,
       "return_3d": -0.79,
       "return_1w": -4.07,
       "max_gain": 2.25,
       "max_drawdown": -20.49,
       "bench_since": -1.72,
-      "excess_since": -16.44,
-      "days_tracked": 10,
-      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -18.2%；期间最高浮盈 +2.2%，最大回撤 -20.5%。 喊单后不升反跌。（同期标普 -1.7%，超额 -16.4%）"
+      "excess_since": -15.2,
+      "days_tracked": 11,
+      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -16.9%；期间最高浮盈 +2.2%，最大回撤 -20.5%。 喊单后不升反跌。（同期标普 -1.7%，超额 -15.2%）"
     },
     {
       "post_id": "38444",
@@ -6551,10 +6551,17 @@
         },
         {
           "date": "2026-06-06",
-          "o": 61033.8281,
-          "h": 61420.0508,
+          "o": 60924.4766,
+          "h": 61491.7031,
           "l": 59496.625,
-          "c": 60844.0
+          "c": 60867.4141
+        },
+        {
+          "date": "2026-06-07",
+          "o": 60864.2383,
+          "h": 62830.293,
+          "l": 60759.0469,
+          "c": 61766.0
         }
       ],
       "marks": [
