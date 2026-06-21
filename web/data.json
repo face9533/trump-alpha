@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-21T07:11:35",
+  "generated_at": "2026-06-22T07:11:36",
   "as_of_date": "2026-06-18",
   "window_days": 60,
   "summary": {
     "count": 30,
     "unique_tickers": 19,
     "win_rate": 53.3,
-    "avg_return_since": 4.91,
-    "avg_excess_since": 0.23,
+    "avg_return_since": 4.87,
+    "avg_excess_since": 0.2,
     "beat_market_rate": 43.3,
     "bull_count": 7,
     "bull_win_rate": 71.4,
@@ -17,9 +17,9 @@
       "return": 41.82
     },
     "worst": {
-      "ticker": "AZN",
-      "company": "阿斯利康",
-      "return": -14.26
+      "ticker": "BTC-USD",
+      "company": "比特币",
+      "return": -14.58
     }
   },
   "analytics": {
@@ -120,7 +120,7 @@
       },
       {
         "key": "至今",
-        "avg": 4.91,
+        "avg": 4.87,
         "win": 53.3,
         "n": 30
       }
@@ -164,9 +164,9 @@
       {
         "sector": "加密货币",
         "n": 2,
-        "avg": -13.62,
+        "avg": -14.11,
         "win": 0.0,
-        "excess": -12.84
+        "excess": -13.34
       }
     ],
     "findings": [
@@ -326,18 +326,18 @@
         "return_since": 3.5
       },
       {
+        "ticker": "BTC-USD",
+        "company": "比特币",
+        "day_move": -2.36,
+        "sentiment": "neutral",
+        "return_since": -13.64
+      },
+      {
         "ticker": "PFE",
         "company": "辉瑞",
         "day_move": -2.74,
         "sentiment": "neutral",
         "return_since": -6.35
-      },
-      {
-        "ticker": "BTC-USD",
-        "company": "比特币",
-        "day_move": -4.12,
-        "sentiment": "neutral",
-        "return_since": -13.14
       }
     ],
     "n_up": 9,
@@ -492,18 +492,18 @@
           "return_since": 3.5
         },
         {
+          "ticker": "BTC-USD",
+          "company": "比特币",
+          "day_move": -2.36,
+          "sentiment": "neutral",
+          "return_since": -13.64
+        },
+        {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -2.74,
           "sentiment": "neutral",
           "return_since": -6.35
-        },
-        {
-          "ticker": "BTC-USD",
-          "company": "比特币",
-          "day_move": -4.12,
-          "sentiment": "neutral",
-          "return_since": -13.14
         }
       ],
       "n_up": 9,
@@ -511,7 +511,7 @@
     },
     {
       "date": "2026-06-17",
-      "headline": "6月17日特朗普当天没有新的股票相关发言；在追踪的 18 只里 5/18 当天上涨；涨幅最大 英特尔(INTC) +3.46%。（当天标普 -1.25%）",
+      "headline": "6月17日特朗普当天没有新的股票相关发言；在追踪的 19 只里 5/19 当天上涨；涨幅最大 英特尔(INTC) +3.46%。（当天标普 -1.25%）",
       "market_move": -1.25,
       "new_mentions": [],
       "movers": [
@@ -628,6 +628,13 @@
           "return_since": 3.5
         },
         {
+          "ticker": "BTC-USD",
+          "company": "比特币",
+          "day_move": -1.8,
+          "sentiment": "neutral",
+          "return_since": -13.64
+        },
+        {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -1.97,
@@ -643,7 +650,7 @@
         }
       ],
       "n_up": 5,
-      "n_tracked": 18
+      "n_tracked": 19
     },
     {
       "date": "2026-06-16",
@@ -740,7 +747,7 @@
           "company": "比特币",
           "day_move": -1.04,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "PLTR",
@@ -890,7 +897,7 @@
           "company": "比特币",
           "day_move": 0.88,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "NVO",
@@ -998,7 +1005,7 @@
           "company": "比特币",
           "day_move": -0.03,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "NVO",
@@ -1134,7 +1141,7 @@
           "company": "比特币",
           "day_move": 3.44,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "GS",
@@ -1249,7 +1256,7 @@
           "company": "比特币",
           "day_move": -0.32,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "PFE",
@@ -1476,7 +1483,7 @@
           "company": "比特币",
           "day_move": -2.29,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "PLTR",
@@ -1577,7 +1584,7 @@
           "company": "比特币",
           "day_move": -0.24,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "AMZN",
@@ -1741,7 +1748,7 @@
           "company": "比特币",
           "day_move": -4.51,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "GS",
@@ -1898,7 +1905,7 @@
           "company": "比特币",
           "day_move": -0.33,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "PLTR",
@@ -2055,7 +2062,7 @@
           "company": "比特币",
           "day_move": -4.03,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "DJT",
@@ -2212,7 +2219,7 @@
           "company": "比特币",
           "day_move": -6.47,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         }
       ],
       "n_up": 6,
@@ -2320,7 +2327,7 @@
           "company": "比特币",
           "day_move": -3.07,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "AZN",
@@ -2463,7 +2470,7 @@
           "company": "比特币",
           "day_move": -0.22,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "AMZN",
@@ -2641,7 +2648,7 @@
           "company": "比特币",
           "day_move": -1.09,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         }
       ],
       "n_up": 12,
@@ -2778,7 +2785,7 @@
           "company": "比特币",
           "day_move": -1.95,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "PLTR",
@@ -2943,7 +2950,7 @@
           "company": "比特币",
           "day_move": -1.88,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         }
       ],
       "n_up": 9,
@@ -3086,7 +3093,7 @@
           "company": "比特币",
           "day_move": -2.65,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         }
       ],
       "n_up": 8,
@@ -3187,7 +3194,7 @@
           "company": "比特币",
           "day_move": 0.11,
           "sentiment": "neutral",
-          "return_since": -13.14
+          "return_since": -13.64
         },
         {
           "ticker": "INTC",
@@ -5396,18 +5403,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-28",
       "entry_price": 73536.5547,
-      "latest_date": "2026-06-20",
-      "latest_price": 63872.4688,
-      "return_since": -13.14,
+      "latest_date": "2026-06-21",
+      "latest_price": 63504.0312,
+      "return_since": -13.64,
       "return_next_day": -0.22,
       "return_3d": 0.06,
       "return_1w": -9.29,
       "max_gain": 1.26,
       "max_drawdown": -19.62,
       "bench_since": -1.04,
-      "excess_since": -12.1,
-      "days_tracked": 23,
-      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -13.1%；期间最高浮盈 +1.3%，最大回撤 -19.6%。 喊单后不升反跌。（同期标普 -1.0%，超额 -12.1%）"
+      "excess_since": -12.6,
+      "days_tracked": 24,
+      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -13.6%；期间最高浮盈 +1.3%，最大回撤 -19.6%。 喊单后不升反跌。（同期标普 -1.0%，超额 -12.6%）"
     },
     {
       "post_id": "38814",
@@ -5424,18 +5431,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-27",
       "entry_price": 74344.7031,
-      "latest_date": "2026-06-20",
-      "latest_price": 63872.4688,
-      "return_since": -14.09,
+      "latest_date": "2026-06-21",
+      "latest_price": 63504.0312,
+      "return_since": -14.58,
       "return_next_day": -1.09,
       "return_3d": -0.79,
       "return_1w": -4.07,
       "max_gain": 2.25,
       "max_drawdown": -20.49,
       "bench_since": -0.5,
-      "excess_since": -13.59,
-      "days_tracked": 24,
-      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -14.1%；期间最高浮盈 +2.2%，最大回撤 -20.5%。 喊单后不升反跌。（同期标普 -0.5%，超额 -13.6%）"
+      "excess_since": -14.08,
+      "days_tracked": 25,
+      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -14.6%；期间最高浮盈 +2.2%，最大回撤 -20.5%。 喊单后不升反跌。（同期标普 -0.5%，超额 -14.1%）"
     },
     {
       "post_id": "38444",
@@ -8288,6 +8295,13 @@
           "c": 65600.6406
         },
         {
+          "date": "2026-06-17",
+          "o": 65600.4297,
+          "h": 66354.625,
+          "l": 63870.9297,
+          "c": 64418.4453
+        },
+        {
           "date": "2026-06-18",
           "o": 64419.6445,
           "h": 64736.9219,
@@ -8303,10 +8317,17 @@
         },
         {
           "date": "2026-06-20",
-          "o": 63484.4375,
-          "h": 64185.6875,
-          "l": 63151.5742,
-          "c": 63872.4688
+          "o": 63535.8086,
+          "h": 64307.1367,
+          "l": 63149.6602,
+          "c": 64239.6758
+        },
+        {
+          "date": "2026-06-21",
+          "o": 64240.9062,
+          "h": 64461.0664,
+          "l": 63504.793,
+          "c": 63504.0312
         }
       ],
       "marks": [
