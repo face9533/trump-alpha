@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-15T07:19:02",
-  "as_of_date": "2026-07-14",
+  "generated_at": "2026-07-16T07:19:03",
+  "as_of_date": "2026-07-15",
   "window_days": 60,
   "summary": {
     "count": 38,
     "unique_tickers": 20,
-    "win_rate": 60.5,
-    "avg_return_since": 3.4,
-    "avg_excess_since": -0.98,
-    "beat_market_rate": 50.0,
+    "win_rate": 52.6,
+    "avg_return_since": 3.32,
+    "avg_excess_since": -1.47,
+    "beat_market_rate": 42.1,
     "bull_count": 10,
     "bull_win_rate": 60.0,
     "best": {
       "ticker": "NVO",
       "company": "诺和诺德",
-      "return": 32.95
+      "return": 36.98
     },
     "worst": {
       "ticker": "INTC",
       "company": "英特尔",
-      "return": -19.58
+      "return": -23.14
     }
   },
   "analytics": {
@@ -114,14 +114,14 @@
       },
       {
         "key": "一周",
-        "avg": 0.2,
-        "win": 60.6,
-        "n": 33
+        "avg": 0.18,
+        "win": 58.8,
+        "n": 34
       },
       {
         "key": "至今",
-        "avg": 3.4,
-        "win": 60.5,
+        "avg": 3.32,
+        "win": 52.6,
         "n": 38
       }
     ],
@@ -129,213 +129,363 @@
       {
         "sector": "金融",
         "n": 3,
-        "avg": 11.37,
+        "avg": 13.15,
         "win": 100.0,
-        "excess": 8.74
-      },
-      {
-        "sector": "消费",
-        "n": 2,
-        "avg": 1.23,
-        "win": 100.0,
-        "excess": 0.53
-      },
-      {
-        "sector": "科技",
-        "n": 18,
-        "avg": 2.68,
-        "win": 66.7,
-        "excess": 0.3
+        "excess": 10.13
       },
       {
         "sector": "医药",
         "n": 9,
-        "avg": 7.67,
+        "avg": 9.6,
         "win": 55.6,
-        "excess": -3.58
+        "excess": -2.09
       },
       {
         "sector": "航空航天",
         "n": 2,
-        "avg": 5.14,
+        "avg": 6.46,
         "win": 50.0,
-        "excess": 3.86
+        "excess": 4.79
+      },
+      {
+        "sector": "科技",
+        "n": 18,
+        "avg": 0.79,
+        "win": 50.0,
+        "excess": -2.0
+      },
+      {
+        "sector": "消费",
+        "n": 2,
+        "avg": 0.2,
+        "win": 50.0,
+        "excess": -0.91
       },
       {
         "sector": "媒体",
         "n": 2,
-        "avg": -4.88,
-        "win": 0.0,
-        "excess": -10.1
+        "avg": -1.36,
+        "win": 50.0,
+        "excess": -6.99
       },
       {
         "sector": "加密货币",
         "n": 2,
-        "avg": -12.63,
+        "avg": -12.28,
         "win": 0.0,
-        "excess": -12.54
+        "excess": -12.59
       }
     ],
     "findings": [
-      "近期共 38 次有效喊单，整体胜率 61%，自喊单以来平均 +3.4%。",
+      "近期共 38 次有效喊单，整体胜率 53%，自喊单以来平均 +3.3%。",
       "上涨周期：平均在喊单后第 8 个交易日见高点（+1.8%），随后回落。（基于 30 次满 10 日的喊单）",
-      "按持有时长看，「一周」胜率最高（61%）。",
-      "行业里 金融 胜率最高（100%，3 次，平均 +11.4%）。",
-      "相对最弱的是 医药（胜率 56%，9 次）。"
+      "按持有时长看，「一周」胜率最高（59%）。",
+      "行业里 金融 胜率最高（100%，3 次，平均 +13.2%）。",
+      "相对最弱的是 科技（胜率 50%，18 次）。"
     ],
     "max_days": 10
   },
   "daily_review": {
-    "date": "2026-07-14",
-    "headline": "7月14日特朗普当天没有新的股票相关发言；在追踪的 20 只里 10/20 当天上涨；涨幅最大 高盛(GS) +9.00%。（当天标普 +0.36%）",
-    "market_move": 0.36,
+    "date": "2026-07-15",
+    "headline": "7月15日特朗普当天没有新的股票相关发言；在追踪的 20 只里 15/20 当天上涨；涨幅最大 特朗普媒体科技集团(DJT) +5.98%。（当天标普 +0.40%）",
+    "market_move": 0.4,
     "new_mentions": [],
     "movers": [
       {
-        "ticker": "GS",
-        "company": "高盛",
-        "day_move": 9.0,
-        "sentiment": "positive",
-        "return_since": 19.32
-      },
-      {
         "ticker": "DJT",
         "company": "特朗普媒体科技集团",
-        "day_move": 5.99,
+        "day_move": 5.98,
         "sentiment": "positive",
-        "return_since": -3.42
-      },
-      {
-        "ticker": "MU",
-        "company": "美光",
-        "day_move": 4.92,
-        "sentiment": "neutral",
-        "return_since": 4.92
-      },
-      {
-        "ticker": "INTC",
-        "company": "英特尔",
-        "day_move": 4.5,
-        "sentiment": "neutral",
-        "return_since": -19.58
-      },
-      {
-        "ticker": "NVDA",
-        "company": "英伟达",
-        "day_move": 4.06,
-        "sentiment": "neutral",
-        "return_since": 0.53
-      },
-      {
-        "ticker": "BTC-USD",
-        "company": "比特币",
-        "day_move": 3.79,
-        "sentiment": "neutral",
-        "return_since": -12.16
-      },
-      {
-        "ticker": "PLTR",
-        "company": "Palantir",
-        "day_move": 2.83,
-        "sentiment": "positive",
-        "return_since": 4.42
-      },
-      {
-        "ticker": "BA",
-        "company": "波音",
-        "day_move": 0.74,
-        "sentiment": "neutral",
-        "return_since": -9.76
-      },
-      {
-        "ticker": "GE",
-        "company": "GE航空",
-        "day_move": 0.09,
-        "sentiment": "neutral",
-        "return_since": 20.03
-      },
-      {
-        "ticker": "AMZN",
-        "company": "亚马逊",
-        "day_move": 0.07,
-        "sentiment": "neutral",
-        "return_since": -6.63
-      },
-      {
-        "ticker": "DIS",
-        "company": "迪士尼",
-        "day_move": -0.14,
-        "sentiment": "neutral",
-        "return_since": -6.33
-      },
-      {
-        "ticker": "NVO",
-        "company": "诺和诺德",
-        "day_move": -0.43,
-        "sentiment": "neutral",
-        "return_since": 30.78
+        "return_since": 2.35
       },
       {
         "ticker": "AAPL",
         "company": "苹果",
-        "day_move": -0.77,
+        "day_move": 4.01,
         "sentiment": "neutral",
-        "return_since": -0.77
+        "return_since": 3.21
       },
       {
-        "ticker": "WMT",
-        "company": "沃尔玛",
-        "day_move": -0.94,
+        "ticker": "NVO",
+        "company": "诺和诺德",
+        "day_move": 3.04,
         "sentiment": "neutral",
-        "return_since": 0.53
+        "return_since": 34.75
       },
       {
-        "ticker": "PFE",
-        "company": "辉瑞",
-        "day_move": -0.94,
+        "ticker": "AMZN",
+        "company": "亚马逊",
+        "day_move": 3.02,
         "sentiment": "neutral",
-        "return_since": -9.92
-      },
-      {
-        "ticker": "LLY",
-        "company": "礼来",
-        "day_move": -2.48,
-        "sentiment": "neutral",
-        "return_since": 16.77
+        "return_since": -3.81
       },
       {
         "ticker": "WFC",
         "company": "富国银行",
-        "day_move": -2.71,
+        "day_move": 2.6,
         "sentiment": "neutral",
-        "return_since": 7.39
+        "return_since": 10.19
+      },
+      {
+        "ticker": "PFE",
+        "company": "辉瑞",
+        "day_move": 2.35,
+        "sentiment": "neutral",
+        "return_since": -7.8
       },
       {
         "ticker": "AZN",
         "company": "阿斯利康",
-        "day_move": -2.93,
+        "day_move": 2.35,
         "sentiment": "neutral",
-        "return_since": -19.37
+        "return_since": -17.48
       },
       {
-        "ticker": "QCOM",
-        "company": "高通",
-        "day_move": -3.2,
-        "sentiment": "positive",
-        "return_since": -16.45
+        "ticker": "GE",
+        "company": "GE航空",
+        "day_move": 1.87,
+        "sentiment": "neutral",
+        "return_since": 22.27
+      },
+      {
+        "ticker": "DIS",
+        "company": "迪士尼",
+        "day_move": 1.34,
+        "sentiment": "neutral",
+        "return_since": -5.08
       },
       {
         "ticker": "C",
         "company": "花旗",
-        "day_move": -5.29,
+        "day_move": 1.22,
         "sentiment": "positive",
-        "return_since": 7.39
+        "return_since": 8.69
+      },
+      {
+        "ticker": "GS",
+        "company": "高盛",
+        "day_move": 1.06,
+        "sentiment": "positive",
+        "return_since": 20.58
+      },
+      {
+        "ticker": "BA",
+        "company": "波音",
+        "day_move": 0.47,
+        "sentiment": "neutral",
+        "return_since": -9.34
+      },
+      {
+        "ticker": "LLY",
+        "company": "礼来",
+        "day_move": 0.35,
+        "sentiment": "neutral",
+        "return_since": 17.18
+      },
+      {
+        "ticker": "NVDA",
+        "company": "英伟达",
+        "day_move": 0.33,
+        "sentiment": "neutral",
+        "return_since": 0.86
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir",
+        "day_move": 0.03,
+        "sentiment": "positive",
+        "return_since": 4.45
+      },
+      {
+        "ticker": "QCOM",
+        "company": "高通",
+        "day_move": -0.07,
+        "sentiment": "positive",
+        "return_since": -16.51
+      },
+      {
+        "ticker": "BTC-USD",
+        "company": "比特币",
+        "day_move": -0.15,
+        "sentiment": "neutral",
+        "return_since": -11.8
+      },
+      {
+        "ticker": "WMT",
+        "company": "沃尔玛",
+        "day_move": -1.03,
+        "sentiment": "neutral",
+        "return_since": -0.5
+      },
+      {
+        "ticker": "INTC",
+        "company": "英特尔",
+        "day_move": -4.43,
+        "sentiment": "neutral",
+        "return_since": -23.14
+      },
+      {
+        "ticker": "MU",
+        "company": "美光",
+        "day_move": -8.02,
+        "sentiment": "neutral",
+        "return_since": -3.49
       }
     ],
-    "n_up": 10,
+    "n_up": 15,
     "n_tracked": 20
   },
   "review_history": [
+    {
+      "date": "2026-07-15",
+      "headline": "7月15日特朗普当天没有新的股票相关发言；在追踪的 20 只里 15/20 当天上涨；涨幅最大 特朗普媒体科技集团(DJT) +5.98%。（当天标普 +0.40%）",
+      "market_move": 0.4,
+      "new_mentions": [],
+      "movers": [
+        {
+          "ticker": "DJT",
+          "company": "特朗普媒体科技集团",
+          "day_move": 5.98,
+          "sentiment": "positive",
+          "return_since": 2.35
+        },
+        {
+          "ticker": "AAPL",
+          "company": "苹果",
+          "day_move": 4.01,
+          "sentiment": "neutral",
+          "return_since": 3.21
+        },
+        {
+          "ticker": "NVO",
+          "company": "诺和诺德",
+          "day_move": 3.04,
+          "sentiment": "neutral",
+          "return_since": 34.75
+        },
+        {
+          "ticker": "AMZN",
+          "company": "亚马逊",
+          "day_move": 3.02,
+          "sentiment": "neutral",
+          "return_since": -3.81
+        },
+        {
+          "ticker": "WFC",
+          "company": "富国银行",
+          "day_move": 2.6,
+          "sentiment": "neutral",
+          "return_since": 10.19
+        },
+        {
+          "ticker": "PFE",
+          "company": "辉瑞",
+          "day_move": 2.35,
+          "sentiment": "neutral",
+          "return_since": -7.8
+        },
+        {
+          "ticker": "AZN",
+          "company": "阿斯利康",
+          "day_move": 2.35,
+          "sentiment": "neutral",
+          "return_since": -17.48
+        },
+        {
+          "ticker": "GE",
+          "company": "GE航空",
+          "day_move": 1.87,
+          "sentiment": "neutral",
+          "return_since": 22.27
+        },
+        {
+          "ticker": "DIS",
+          "company": "迪士尼",
+          "day_move": 1.34,
+          "sentiment": "neutral",
+          "return_since": -5.08
+        },
+        {
+          "ticker": "C",
+          "company": "花旗",
+          "day_move": 1.22,
+          "sentiment": "positive",
+          "return_since": 8.69
+        },
+        {
+          "ticker": "GS",
+          "company": "高盛",
+          "day_move": 1.06,
+          "sentiment": "positive",
+          "return_since": 20.58
+        },
+        {
+          "ticker": "BA",
+          "company": "波音",
+          "day_move": 0.47,
+          "sentiment": "neutral",
+          "return_since": -9.34
+        },
+        {
+          "ticker": "LLY",
+          "company": "礼来",
+          "day_move": 0.35,
+          "sentiment": "neutral",
+          "return_since": 17.18
+        },
+        {
+          "ticker": "NVDA",
+          "company": "英伟达",
+          "day_move": 0.33,
+          "sentiment": "neutral",
+          "return_since": 0.86
+        },
+        {
+          "ticker": "PLTR",
+          "company": "Palantir",
+          "day_move": 0.03,
+          "sentiment": "positive",
+          "return_since": 4.45
+        },
+        {
+          "ticker": "QCOM",
+          "company": "高通",
+          "day_move": -0.07,
+          "sentiment": "positive",
+          "return_since": -16.51
+        },
+        {
+          "ticker": "BTC-USD",
+          "company": "比特币",
+          "day_move": -0.15,
+          "sentiment": "neutral",
+          "return_since": -11.8
+        },
+        {
+          "ticker": "WMT",
+          "company": "沃尔玛",
+          "day_move": -1.03,
+          "sentiment": "neutral",
+          "return_since": -0.5
+        },
+        {
+          "ticker": "INTC",
+          "company": "英特尔",
+          "day_move": -4.43,
+          "sentiment": "neutral",
+          "return_since": -23.14
+        },
+        {
+          "ticker": "MU",
+          "company": "美光",
+          "day_move": -8.02,
+          "sentiment": "neutral",
+          "return_since": -3.49
+        }
+      ],
+      "n_up": 15,
+      "n_tracked": 20
+    },
     {
       "date": "2026-07-14",
       "headline": "7月14日特朗普当天没有新的股票相关发言；在追踪的 20 只里 10/20 当天上涨；涨幅最大 高盛(GS) +9.00%。（当天标普 +0.36%）",
@@ -347,140 +497,140 @@
           "company": "高盛",
           "day_move": 9.0,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 5.99,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": 4.92,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": 4.5,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
+        },
+        {
+          "ticker": "BTC-USD",
+          "company": "比特币",
+          "day_move": 4.37,
+          "sentiment": "neutral",
+          "return_since": -11.8
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": 4.06,
           "sentiment": "neutral",
-          "return_since": 0.53
-        },
-        {
-          "ticker": "BTC-USD",
-          "company": "比特币",
-          "day_move": 3.79,
-          "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": 0.86
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": 2.83,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": 0.74,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.09,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 0.07,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.14,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.43,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -0.77,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -0.94,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -0.94,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -2.48,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -2.71,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -2.93,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -3.2,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -5.29,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         }
       ],
       "n_up": 10,
@@ -497,140 +647,140 @@
           "company": "Palantir",
           "day_move": 2.56,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": 1.28,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 0.8,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 0.77,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 0.63,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 0.59,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": 0.4,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -0.06,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -0.23,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.4,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -0.56,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -0.88,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -1.25,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": -1.63,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -2.38,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -2.74,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -3.05,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -3.52,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -4.32,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -6.12,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         }
       ],
       "n_up": 7,
@@ -676,140 +826,140 @@
           "company": "英伟达",
           "day_move": 4.03,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 1.51,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 1.48,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 1.23,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 0.87,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 0.29,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.06,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -0.07,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -0.12,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -0.28,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -0.33,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -0.37,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.57,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": -0.69,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -1.02,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -1.24,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -1.74,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -2.33,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -2.4,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -3.85,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         }
       ],
       "n_up": 7,
@@ -826,140 +976,140 @@
           "company": "美光",
           "day_move": 4.52,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 2.56,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": 2.44,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": 2.09,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 1.59,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 1.58,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 1.5,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 1.4,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 0.9,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.85,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": 0.83,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 0.71,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": 0.09,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.02,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.55,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -0.66,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -0.79,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -0.82,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -2.41,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -5.7,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         }
       ],
       "n_up": 13,
@@ -976,140 +1126,140 @@
           "company": "特朗普媒体科技集团",
           "day_move": 4.43,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": 3.65,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": 1.96,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 1.4,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": 1.11,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 0.88,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -0.08,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -0.14,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.8,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": -0.96,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -1.28,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -1.51,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -1.6,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -1.6,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -1.64,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -1.86,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -1.99,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -2.4,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -2.9,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": -2.98,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         }
       ],
       "n_up": 6,
@@ -1134,140 +1284,140 @@
           "company": "礼来",
           "day_move": 2.96,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 1.56,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": 1.48,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": 1.38,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 0.8,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 0.77,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 0.75,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": 0.71,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": 0.07,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -0.31,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -0.64,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -1.09,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -1.17,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -1.22,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -1.88,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -2.15,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": -3.09,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -4.71,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -6.12,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -9.66,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         }
       ],
       "n_up": 9,
@@ -1292,140 +1442,140 @@
           "company": "高通",
           "day_move": 5.8,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": 3.55,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 3.36,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 2.78,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": 2.51,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 2.27,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": 1.54,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 1.41,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 1.31,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": 0.94,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 0.7,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 0.61,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": 0.37,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.31,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -1.06,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -1.14,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -2.1,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -2.32,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -2.47,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -2.56,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         }
       ],
       "n_up": 14,
@@ -1450,140 +1600,140 @@
           "company": "特朗普媒体科技集团",
           "day_move": 6.48,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 6.14,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 4.84,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": 3.96,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": 3.62,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 3.4,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": 2.84,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 2.78,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 2.47,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": 1.86,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": 1.84,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.69,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 0.4,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 0.14,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -0.11,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -0.5,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -1.39,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -3.12,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -5.25,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -5.49,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         }
       ],
       "n_up": 14,
@@ -1608,140 +1758,140 @@
           "company": "Palantir",
           "day_move": 7.77,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 3.99,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 3.62,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 2.47,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 1.73,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 1.73,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 1.41,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": 0.97,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 0.81,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.32,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 0.12,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.56,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -0.64,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -0.83,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -1.25,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -1.55,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -3.04,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -3.92,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -9.03,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -10.57,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         }
       ],
       "n_up": 11,
@@ -1758,140 +1908,140 @@
           "company": "英特尔",
           "day_move": 6.01,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 3.34,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 2.7,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": 2.63,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": 0.84,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": 0.83,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": 0.79,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.01,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -0.7,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": -0.75,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.83,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -0.87,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -1.04,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -1.17,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -1.19,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -1.78,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -2.08,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -2.41,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -2.48,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -2.63,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         }
       ],
       "n_up": 8,
@@ -1908,140 +2058,140 @@
           "company": "亚马逊",
           "day_move": 3.2,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": 2.65,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": 2.45,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": 1.81,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 1.35,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 1.28,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": 1.27,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": 1.14,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 1.02,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 0.94,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 0.56,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 0.51,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": 0.33,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 0.06,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.16,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -0.35,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -0.42,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -0.72,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -0.94,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -1.18,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         }
       ],
       "n_up": 14,
@@ -2058,140 +2208,140 @@
           "company": "礼来",
           "day_move": 7.13,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": 5.28,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 5.1,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 3.14,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": 2.62,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 2.5,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 1.47,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 0.9,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": 0.75,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 0.49,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -0.08,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -0.4,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": -0.64,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -1.04,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -1.64,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -2.22,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -3.42,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -4.27,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -6.69,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -7.57,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         }
       ],
       "n_up": 10,
@@ -2208,140 +2358,140 @@
           "company": "美光",
           "day_move": 15.74,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": 3.79,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 1.5,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 1.45,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 0.97,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": 0.93,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": 0.93,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 0.52,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 0.49,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -0.97,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -1.1,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -1.54,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -1.64,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -2.09,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -2.71,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -3.04,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": -3.1,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -5.49,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -6.12,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -6.12,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         }
       ],
       "n_up": 9,
@@ -2358,140 +2508,140 @@
           "company": "GE航空",
           "day_move": 2.64,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": 1.63,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 1.1,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": 0.92,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 0.2,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 0.07,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.02,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -0.31,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -0.35,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -0.41,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -0.48,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -0.52,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -0.95,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -1.6,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -2.33,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -2.67,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -2.74,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -2.75,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -3.29,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -4.57,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         }
       ],
       "n_up": 6,
@@ -2508,140 +2658,140 @@
           "company": "诺和诺德",
           "day_move": 3.36,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 2.6,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 1.91,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": 1.05,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 0.57,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": 0.45,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.38,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 0.35,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -0.48,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -0.91,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -1.08,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -1.44,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -1.87,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -2.01,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -2.34,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -2.96,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -4.13,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -6.14,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -8.01,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -13.18,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         }
       ],
       "n_up": 8,
@@ -2658,140 +2808,140 @@
           "company": "美光",
           "day_move": 6.82,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": 6.23,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": 5.19,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 2.0,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 1.82,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": 1.13,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 0.89,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 0.86,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": 0.32,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 0.0,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -0.34,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -0.52,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": -0.7,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -0.85,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -0.97,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -1.39,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -1.86,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -4.36,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": -4.75,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -6.98,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         }
       ],
       "n_up": 9,
@@ -2830,140 +2980,140 @@
           "company": "英特尔",
           "day_move": 10.64,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": 8.7,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": 6.17,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": 4.81,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": 3.0,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": 2.95,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": 2.9,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 0.7,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 0.17,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": -0.23,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": -0.5,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.76,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -0.8,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -1.21,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -1.29,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -1.65,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -1.66,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -1.92,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -2.36,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -2.74,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         }
       ],
       "n_up": 9,
@@ -2980,140 +3130,140 @@
           "company": "英特尔",
           "day_move": 3.46,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": 2.2,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "GE",
           "company": "GE航空",
           "day_move": 1.51,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 0.78,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 0.55,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.07,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.41,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": -0.46,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": -0.46,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -0.51,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -0.74,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -0.82,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -0.94,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": -1.1,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -1.33,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": -1.46,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -1.8,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -1.97,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": -2.4,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": -3.46,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         }
       ],
       "n_up": 5,
@@ -3130,140 +3280,140 @@
           "company": "GE航空",
           "day_move": 2.77,
           "sentiment": "neutral",
-          "return_since": 20.03
+          "return_since": 22.27
         },
         {
           "ticker": "WFC",
           "company": "富国银行",
           "day_move": 2.3,
           "sentiment": "neutral",
-          "return_since": 7.39
+          "return_since": 10.19
         },
         {
           "ticker": "GS",
           "company": "高盛",
           "day_move": 1.35,
           "sentiment": "positive",
-          "return_since": 19.32
+          "return_since": 20.58
         },
         {
           "ticker": "C",
           "company": "花旗",
           "day_move": 1.26,
           "sentiment": "positive",
-          "return_since": 7.39
+          "return_since": 8.69
         },
         {
           "ticker": "AAPL",
           "company": "苹果",
           "day_move": 0.95,
           "sentiment": "neutral",
-          "return_since": -0.77
+          "return_since": 3.21
         },
         {
           "ticker": "AZN",
           "company": "阿斯利康",
           "day_move": 0.81,
           "sentiment": "neutral",
-          "return_since": -19.37
+          "return_since": -17.48
         },
         {
           "ticker": "WMT",
           "company": "沃尔玛",
           "day_move": 0.17,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": -0.5
         },
         {
           "ticker": "PFE",
           "company": "辉瑞",
           "day_move": 0.15,
           "sentiment": "neutral",
-          "return_since": -9.92
+          "return_since": -7.8
         },
         {
           "ticker": "AMZN",
           "company": "亚马逊",
           "day_move": -0.01,
           "sentiment": "neutral",
-          "return_since": -6.63
+          "return_since": -3.81
         },
         {
           "ticker": "DIS",
           "company": "迪士尼",
           "day_move": -0.4,
           "sentiment": "neutral",
-          "return_since": -6.33
+          "return_since": -5.08
         },
         {
           "ticker": "LLY",
           "company": "礼来",
           "day_move": -0.61,
           "sentiment": "neutral",
-          "return_since": 16.77
+          "return_since": 17.18
         },
         {
           "ticker": "BA",
           "company": "波音",
           "day_move": -0.64,
           "sentiment": "neutral",
-          "return_since": -9.76
+          "return_since": -9.34
         },
         {
           "ticker": "NVO",
           "company": "诺和诺德",
           "day_move": -0.84,
           "sentiment": "neutral",
-          "return_since": 30.78
+          "return_since": 34.75
         },
         {
           "ticker": "BTC-USD",
           "company": "比特币",
           "day_move": -1.04,
           "sentiment": "neutral",
-          "return_since": -12.16
+          "return_since": -11.8
         },
         {
           "ticker": "PLTR",
           "company": "Palantir",
           "day_move": -1.08,
           "sentiment": "positive",
-          "return_since": 4.42
+          "return_since": 4.45
         },
         {
           "ticker": "NVDA",
           "company": "英伟达",
           "day_move": -2.37,
           "sentiment": "neutral",
-          "return_since": 0.53
+          "return_since": 0.86
         },
         {
           "ticker": "QCOM",
           "company": "高通",
           "day_move": -3.05,
           "sentiment": "positive",
-          "return_since": -16.45
+          "return_since": -16.51
         },
         {
           "ticker": "DJT",
           "company": "特朗普媒体科技集团",
           "day_move": -3.32,
           "sentiment": "positive",
-          "return_since": -3.42
+          "return_since": 2.35
         },
         {
           "ticker": "MU",
           "company": "美光",
           "day_move": -6.18,
           "sentiment": "neutral",
-          "return_since": 4.92
+          "return_since": -3.49
         },
         {
           "ticker": "INTC",
           "company": "英特尔",
           "day_move": -8.45,
           "sentiment": "neutral",
-          "return_since": -19.58
+          "return_since": -23.14
         }
       ],
       "n_up": 8,
@@ -7835,18 +7985,18 @@
       "matched": "Apple",
       "entry_date": "2026-07-13",
       "entry_price": 317.31,
-      "latest_date": "2026-07-14",
-      "latest_price": 314.86,
-      "return_since": -0.77,
+      "latest_date": "2026-07-15",
+      "latest_price": 327.5,
+      "return_since": 3.21,
       "return_next_day": -0.77,
       "return_3d": null,
       "return_1w": null,
-      "max_gain": 1.94,
+      "max_gain": 3.6,
       "max_drawdown": -1.7,
-      "bench_since": 0.36,
-      "excess_since": -1.13,
-      "days_tracked": 1,
-      "kline_read": "次日 -0.8%、至今 -0.8%；期间最高浮盈 +1.9%，最大回撤 -1.7%。 喊单后基本走平。（同期标普 +0.4%，超额 -1.1%）"
+      "bench_since": 0.75,
+      "excess_since": 2.46,
+      "days_tracked": 2,
+      "kline_read": "次日 -0.8%、至今 +3.2%；期间最高浮盈 +3.6%，最大回撤 -1.7%。 喊单后小幅走高。（同期标普 +0.8%，超额 +2.5%）"
     },
     {
       "post_id": "39930",
@@ -7863,18 +8013,18 @@
       "matched": "Micron",
       "entry_date": "2026-07-13",
       "entry_price": 937.0,
-      "latest_date": "2026-07-14",
-      "latest_price": 983.12,
-      "return_since": 4.92,
+      "latest_date": "2026-07-15",
+      "latest_price": 904.28,
+      "return_since": -3.49,
       "return_next_day": 4.92,
       "return_3d": null,
       "return_1w": null,
       "max_gain": 6.17,
-      "max_drawdown": -3.67,
-      "bench_since": 0.36,
-      "excess_since": 4.56,
-      "days_tracked": 1,
-      "kline_read": "次日 +4.9%、至今 +4.9%；期间最高浮盈 +6.2%，最大回撤 -3.7%。 喊单后小幅走高。（同期标普 +0.4%，超额 +4.6%）"
+      "max_drawdown": -6.76,
+      "bench_since": 0.75,
+      "excess_since": -4.24,
+      "days_tracked": 2,
+      "kline_read": "次日 +4.9%、至今 -3.5%；期间最高浮盈 +6.2%，最大回撤 -6.8%。 喊单后不升反跌。（同期标普 +0.8%，超额 -4.2%）"
     },
     {
       "post_id": "39931",
@@ -7891,18 +8041,18 @@
       "matched": "Micron",
       "entry_date": "2026-07-13",
       "entry_price": 937.0,
-      "latest_date": "2026-07-14",
-      "latest_price": 983.12,
-      "return_since": 4.92,
+      "latest_date": "2026-07-15",
+      "latest_price": 904.28,
+      "return_since": -3.49,
       "return_next_day": 4.92,
       "return_3d": null,
       "return_1w": null,
       "max_gain": 6.17,
-      "max_drawdown": -3.67,
-      "bench_since": 0.36,
-      "excess_since": 4.56,
-      "days_tracked": 1,
-      "kline_read": "次日 +4.9%、至今 +4.9%；期间最高浮盈 +6.2%，最大回撤 -3.7%。 喊单后小幅走高。（同期标普 +0.4%，超额 +4.6%）"
+      "max_drawdown": -6.76,
+      "bench_since": 0.75,
+      "excess_since": -4.24,
+      "days_tracked": 2,
+      "kline_read": "次日 +4.9%、至今 -3.5%；期间最高浮盈 +6.2%，最大回撤 -6.8%。 喊单后不升反跌。（同期标普 +0.8%，超额 -4.2%）"
     },
     {
       "post_id": "39928",
@@ -7919,18 +8069,18 @@
       "matched": "Micron",
       "entry_date": "2026-07-13",
       "entry_price": 937.0,
-      "latest_date": "2026-07-14",
-      "latest_price": 983.12,
-      "return_since": 4.92,
+      "latest_date": "2026-07-15",
+      "latest_price": 904.28,
+      "return_since": -3.49,
       "return_next_day": 4.92,
       "return_3d": null,
       "return_1w": null,
       "max_gain": 6.17,
-      "max_drawdown": -3.67,
-      "bench_since": 0.36,
-      "excess_since": 4.56,
-      "days_tracked": 1,
-      "kline_read": "次日 +4.9%、至今 +4.9%；期间最高浮盈 +6.2%，最大回撤 -3.7%。 喊单后小幅走高。（同期标普 +0.4%，超额 +4.6%）"
+      "max_drawdown": -6.76,
+      "bench_since": 0.75,
+      "excess_since": -4.24,
+      "days_tracked": 2,
+      "kline_read": "次日 +4.9%、至今 -3.5%；期间最高浮盈 +6.2%，最大回撤 -6.8%。 喊单后不升反跌。（同期标普 +0.8%，超额 -4.2%）"
     },
     {
       "post_id": "39880",
@@ -7947,18 +8097,18 @@
       "matched": "Walmart",
       "entry_date": "2026-07-08",
       "entry_price": 113.1,
-      "latest_date": "2026-07-14",
-      "latest_price": 113.7,
-      "return_since": 0.53,
+      "latest_date": "2026-07-15",
+      "latest_price": 112.53,
+      "return_since": -0.5,
       "return_next_day": -0.79,
       "return_3d": 1.49,
-      "return_1w": null,
+      "return_1w": -0.5,
       "max_gain": 2.46,
       "max_drawdown": -1.82,
-      "bench_since": 0.86,
-      "excess_since": -0.33,
-      "days_tracked": 6,
-      "kline_read": "次日 -0.8%、3日 +1.5%、至今 +0.5%；期间最高浮盈 +2.5%，最大回撤 -1.8%。 喊单后基本走平。（同期标普 +0.9%，超额 -0.3%）"
+      "bench_since": 1.26,
+      "excess_since": -1.76,
+      "days_tracked": 7,
+      "kline_read": "次日 -0.8%、3日 +1.5%、一周 -0.5%、至今 -0.5%；期间最高浮盈 +2.5%，最大回撤 -1.8%。 喊单后基本走平。（同期标普 +1.3%，超额 -1.8%）"
     },
     {
       "post_id": "39863",
@@ -7975,18 +8125,18 @@
       "matched": "Walmart",
       "entry_date": "2026-07-07",
       "entry_price": 111.54,
-      "latest_date": "2026-07-14",
-      "latest_price": 113.7,
-      "return_since": 1.94,
+      "latest_date": "2026-07-15",
+      "latest_price": 112.53,
+      "return_since": 0.89,
       "return_next_day": 1.4,
       "return_3d": 2.12,
       "return_1w": 1.94,
       "max_gain": 3.89,
       "max_drawdown": -0.45,
-      "bench_since": 0.55,
-      "excess_since": 1.39,
-      "days_tracked": 7,
-      "kline_read": "次日 +1.4%、3日 +2.1%、一周 +1.9%、至今 +1.9%；期间最高浮盈 +3.9%，最大回撤 -0.5%。 喊单后基本走平。（同期标普 +0.6%，超额 +1.4%）"
+      "bench_since": 0.95,
+      "excess_since": -0.06,
+      "days_tracked": 8,
+      "kline_read": "次日 +1.4%、3日 +2.1%、一周 +1.9%、至今 +0.9%；期间最高浮盈 +3.9%，最大回撤 -0.5%。 喊单后基本走平。（同期标普 +0.9%，超额 -0.1%）"
     },
     {
       "post_id": "39667",
@@ -8003,18 +8153,18 @@
       "matched": "Micron",
       "entry_date": "2026-07-02",
       "entry_price": 975.56,
-      "latest_date": "2026-07-14",
-      "latest_price": 983.12,
-      "return_since": 0.77,
+      "latest_date": "2026-07-15",
+      "latest_price": 904.28,
+      "return_since": -7.31,
       "return_next_day": 0.94,
       "return_3d": -2.74,
       "return_1w": 0.38,
       "max_gain": 9.13,
-      "max_drawdown": -8.6,
-      "bench_since": 0.95,
-      "excess_since": -0.18,
-      "days_tracked": 12,
-      "kline_read": "次日 +0.9%、3日 -2.7%、一周 +0.4%、至今 +0.8%；期间最高浮盈 +9.1%，最大回撤 -8.6%。 喊单后基本走平。（同期标普 +0.9%，超额 -0.2%）"
+      "max_drawdown": -10.45,
+      "bench_since": 1.35,
+      "excess_since": -8.66,
+      "days_tracked": 13,
+      "kline_read": "次日 +0.9%、3日 -2.7%、一周 +0.4%、至今 -7.3%；期间最高浮盈 +9.1%，最大回撤 -10.4%。 喊单后不升反跌。（同期标普 +1.4%，超额 -8.7%）"
     },
     {
       "post_id": "39656",
@@ -8031,18 +8181,18 @@
       "matched": "Micron",
       "entry_date": "2026-07-01",
       "entry_price": 1032.28,
-      "latest_date": "2026-07-14",
-      "latest_price": 983.12,
-      "return_since": -4.76,
+      "latest_date": "2026-07-15",
+      "latest_price": 904.28,
+      "return_since": -12.4,
       "return_next_day": -5.49,
       "return_3d": -9.1,
       "return_1w": -3.94,
       "max_gain": 6.27,
-      "max_drawdown": -13.62,
-      "bench_since": 0.81,
-      "excess_since": -5.57,
-      "days_tracked": 13,
-      "kline_read": "次日 -5.5%、3日 -9.1%、一周 -3.9%、至今 -4.8%；期间最高浮盈 +6.3%，最大回撤 -13.6%。 喊单后不升反跌。（同期标普 +0.8%，超额 -5.6%）"
+      "max_drawdown": -15.37,
+      "bench_since": 1.21,
+      "excess_since": -13.61,
+      "days_tracked": 14,
+      "kline_read": "次日 -5.5%、3日 -9.1%、一周 -3.9%、至今 -12.4%；期间最高浮盈 +6.3%，最大回撤 -15.4%。 喊单后不升反跌。（同期标普 +1.2%，超额 -13.6%）"
     },
     {
       "post_id": "39333",
@@ -8059,18 +8209,18 @@
       "matched": "Apple",
       "entry_date": "2026-06-18",
       "entry_price": 298.01,
-      "latest_date": "2026-07-14",
-      "latest_price": 314.86,
-      "return_since": 5.65,
+      "latest_date": "2026-07-15",
+      "latest_price": 327.5,
+      "return_since": 9.9,
       "return_next_day": -0.34,
       "return_3d": -1.65,
       "return_1w": -4.78,
-      "max_gain": 8.54,
+      "max_gain": 10.31,
       "max_drawdown": -8.14,
-      "bench_since": 0.68,
-      "excess_since": 4.97,
-      "days_tracked": 26,
-      "kline_read": "次日 -0.3%、3日 -1.6%、一周 -4.8%、至今 +5.7%；期间最高浮盈 +8.5%，最大回撤 -8.1%。 喊单后小幅走高。（同期标普 +0.7%，超额 +5.0%）"
+      "bench_since": 1.08,
+      "excess_since": 8.82,
+      "days_tracked": 27,
+      "kline_read": "次日 -0.3%、3日 -1.6%、一周 -4.8%、至今 +9.9%；期间最高浮盈 +10.3%，最大回撤 -8.1%。 喊单后小幅走高。（同期标普 +1.1%，超额 +8.8%）"
     },
     {
       "post_id": "39333",
@@ -8087,18 +8237,18 @@
       "matched": "Nvidia",
       "entry_date": "2026-06-18",
       "entry_price": 210.69,
-      "latest_date": "2026-07-14",
-      "latest_price": 211.8,
-      "return_since": 0.53,
+      "latest_date": "2026-07-15",
+      "latest_price": 212.5,
+      "return_since": 0.86,
       "return_next_day": -0.97,
       "return_3d": -5.55,
       "return_1w": -8.62,
       "max_gain": 1.57,
       "max_drawdown": -9.92,
-      "bench_since": 0.68,
-      "excess_since": -0.15,
-      "days_tracked": 26,
-      "kline_read": "次日 -1.0%、3日 -5.5%、一周 -8.6%、至今 +0.5%；期间最高浮盈 +1.6%，最大回撤 -9.9%。 喊单后基本走平。（同期标普 +0.7%，超额 -0.1%）"
+      "bench_since": 1.08,
+      "excess_since": -0.22,
+      "days_tracked": 27,
+      "kline_read": "次日 -1.0%、3日 -5.5%、一周 -8.6%、至今 +0.9%；期间最高浮盈 +1.6%，最大回撤 -9.9%。 喊单后基本走平。（同期标普 +1.1%，超额 -0.2%）"
     },
     {
       "post_id": "39333",
@@ -8115,18 +8265,18 @@
       "matched": "Intel",
       "entry_date": "2026-06-18",
       "entry_price": 133.99,
-      "latest_date": "2026-07-14",
-      "latest_price": 107.76,
-      "return_since": -19.58,
+      "latest_date": "2026-07-15",
+      "latest_price": 102.99,
+      "return_since": -23.14,
       "return_next_day": 5.19,
       "return_3d": -1.75,
       "return_1w": -4.23,
       "max_gain": 6.24,
-      "max_drawdown": -24.03,
-      "bench_since": 0.68,
-      "excess_since": -20.26,
-      "days_tracked": 26,
-      "kline_read": "次日 +5.2%、3日 -1.8%、一周 -4.2%、至今 -19.6%；期间最高浮盈 +6.2%，最大回撤 -24.0%。 喊单后不升反跌。（同期标普 +0.7%，超额 -20.3%）"
+      "max_drawdown": -25.96,
+      "bench_since": 1.08,
+      "excess_since": -24.22,
+      "days_tracked": 27,
+      "kline_read": "次日 +5.2%、3日 -1.8%、一周 -4.2%、至今 -23.1%；期间最高浮盈 +6.2%，最大回撤 -26.0%。 喊单后不升反跌。（同期标普 +1.1%，超额 -24.2%）"
     },
     {
       "post_id": "38837",
@@ -8143,18 +8293,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-28",
       "entry_price": 73536.5547,
-      "latest_date": "2026-07-14",
-      "latest_price": 64595.0391,
-      "return_since": -12.16,
+      "latest_date": "2026-07-15",
+      "latest_price": 64857.2109,
+      "return_since": -11.8,
       "return_next_day": -0.22,
       "return_3d": 0.06,
       "return_1w": -9.29,
       "max_gain": 1.26,
       "max_drawdown": -21.47,
-      "bench_since": -0.37,
-      "excess_since": -11.79,
-      "days_tracked": 47,
-      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -12.2%；期间最高浮盈 +1.3%，最大回撤 -21.5%。 喊单后不升反跌。（同期标普 -0.4%，超额 -11.8%）"
+      "bench_since": 0.03,
+      "excess_since": -11.83,
+      "days_tracked": 48,
+      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -11.8%；期间最高浮盈 +1.3%，最大回撤 -21.5%。 喊单后不升反跌。（同期标普 +0.0%，超额 -11.8%）"
     },
     {
       "post_id": "38814",
@@ -8171,18 +8321,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-27",
       "entry_price": 74344.7031,
-      "latest_date": "2026-07-14",
-      "latest_price": 64595.0391,
-      "return_since": -13.11,
+      "latest_date": "2026-07-15",
+      "latest_price": 64857.2109,
+      "return_since": -12.76,
       "return_next_day": -1.09,
       "return_3d": -0.79,
       "return_1w": -4.07,
       "max_gain": 2.25,
       "max_drawdown": -22.32,
-      "bench_since": 0.18,
-      "excess_since": -13.29,
-      "days_tracked": 48,
-      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -13.1%；期间最高浮盈 +2.2%，最大回撤 -22.3%。 喊单后不升反跌。（同期标普 +0.2%，超额 -13.3%）"
+      "bench_since": 0.58,
+      "excess_since": -13.34,
+      "days_tracked": 49,
+      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -12.8%；期间最高浮盈 +2.2%，最大回撤 -22.3%。 喊单后不升反跌。（同期标普 +0.6%，超额 -13.3%）"
     },
     {
       "post_id": "38444",
@@ -8199,18 +8349,18 @@
       "matched": "Apple",
       "entry_date": "2026-05-13",
       "entry_price": 298.87,
-      "latest_date": "2026-07-14",
-      "latest_price": 314.86,
-      "return_since": 5.35,
+      "latest_date": "2026-07-15",
+      "latest_price": 327.5,
+      "return_since": 9.58,
       "return_next_day": -0.22,
       "return_3d": -0.34,
       "return_1w": 1.13,
-      "max_gain": 8.22,
+      "max_gain": 9.99,
       "max_drawdown": -8.4,
-      "bench_since": 1.28,
-      "excess_since": 4.07,
-      "days_tracked": 62,
-      "kline_read": "次日 -0.2%、3日 -0.3%、一周 +1.1%、至今 +5.3%；期间最高浮盈 +8.2%，最大回撤 -8.4%。 喊单后小幅走高。（同期标普 +1.3%，超额 +4.1%）"
+      "bench_since": 1.68,
+      "excess_since": 7.9,
+      "days_tracked": 63,
+      "kline_read": "次日 -0.2%、3日 -0.3%、一周 +1.1%、至今 +9.6%；期间最高浮盈 +10.0%，最大回撤 -8.4%。 喊单后小幅走高。（同期标普 +1.7%，超额 +7.9%）"
     },
     {
       "post_id": "38444",
@@ -8227,18 +8377,18 @@
       "matched": "Boeing",
       "entry_date": "2026-05-13",
       "entry_price": 240.6,
-      "latest_date": "2026-07-14",
-      "latest_price": 217.11,
-      "return_since": -9.76,
+      "latest_date": "2026-07-15",
+      "latest_price": 218.12,
+      "return_since": -9.34,
       "return_next_day": -4.73,
       "return_3d": -8.31,
       "return_1w": -7.65,
       "max_gain": 1.44,
       "max_drawdown": -13.57,
-      "bench_since": 1.28,
-      "excess_since": -11.04,
-      "days_tracked": 62,
-      "kline_read": "次日 -4.7%、3日 -8.3%、一周 -7.7%、至今 -9.8%；期间最高浮盈 +1.4%，最大回撤 -13.6%。 喊单后不升反跌。（同期标普 +1.3%，超额 -11.0%）"
+      "bench_since": 1.68,
+      "excess_since": -11.02,
+      "days_tracked": 63,
+      "kline_read": "次日 -4.7%、3日 -8.3%、一周 -7.7%、至今 -9.3%；期间最高浮盈 +1.4%，最大回撤 -13.6%。 喊单后不升反跌。（同期标普 +1.7%，超额 -11.0%）"
     },
     {
       "post_id": "38444",
@@ -8255,18 +8405,18 @@
       "matched": "Jensen Huang",
       "entry_date": "2026-05-13",
       "entry_price": 225.83,
-      "latest_date": "2026-07-14",
-      "latest_price": 211.8,
-      "return_since": -6.21,
+      "latest_date": "2026-07-15",
+      "latest_price": 212.5,
+      "return_since": -5.9,
       "return_next_day": 4.39,
       "return_3d": -1.55,
       "return_1w": -1.05,
       "max_gain": 4.74,
       "max_drawdown": -15.95,
-      "bench_since": 1.28,
-      "excess_since": -7.49,
-      "days_tracked": 62,
-      "kline_read": "次日 +4.4%、3日 -1.6%、一周 -1.1%、至今 -6.2%；期间最高浮盈 +4.7%，最大回撤 -15.9%。 喊单后不升反跌。（同期标普 +1.3%，超额 -7.5%）"
+      "bench_since": 1.68,
+      "excess_since": -7.58,
+      "days_tracked": 63,
+      "kline_read": "次日 +4.4%、3日 -1.6%、一周 -1.1%、至今 -5.9%；期间最高浮盈 +4.7%，最大回撤 -15.9%。 喊单后不升反跌。（同期标普 +1.7%，超额 -7.6%）"
     },
     {
       "post_id": "38444",
@@ -8283,18 +8433,18 @@
       "matched": "Goldman Sachs",
       "entry_date": "2026-05-13",
       "entry_price": 955.42,
-      "latest_date": "2026-07-14",
-      "latest_price": 1140.0,
-      "return_since": 19.32,
+      "latest_date": "2026-07-15",
+      "latest_price": 1152.0699,
+      "return_since": 20.58,
       "return_next_day": 1.42,
       "return_3d": -0.95,
       "return_1w": 2.79,
-      "max_gain": 19.72,
+      "max_gain": 20.78,
       "max_drawdown": -3.31,
-      "bench_since": 1.28,
-      "excess_since": 18.04,
-      "days_tracked": 62,
-      "kline_read": "次日 +1.4%、3日 -0.9%、一周 +2.8%、至今 +19.3%；期间最高浮盈 +19.7%，最大回撤 -3.3%。 喊单后明显上涨。（同期标普 +1.3%，超额 +18.0%）"
+      "bench_since": 1.68,
+      "excess_since": 18.9,
+      "days_tracked": 63,
+      "kline_read": "次日 +1.4%、3日 -0.9%、一周 +2.8%、至今 +20.6%；期间最高浮盈 +20.8%，最大回撤 -3.3%。 喊单后明显上涨。（同期标普 +1.7%，超额 +18.9%）"
     },
     {
       "post_id": "38444",
@@ -8311,18 +8461,18 @@
       "matched": "Cristiano Amon",
       "entry_date": "2026-05-13",
       "entry_price": 213.17,
-      "latest_date": "2026-07-14",
-      "latest_price": 178.1,
-      "return_since": -16.45,
+      "latest_date": "2026-07-15",
+      "latest_price": 177.98,
+      "return_since": -16.51,
       "return_next_day": -6.14,
       "return_3d": -4.47,
       "return_1w": -5.0,
       "max_gain": 21.93,
       "max_drawdown": -19.26,
-      "bench_since": 1.28,
-      "excess_since": -17.73,
-      "days_tracked": 62,
-      "kline_read": "次日 -6.1%、3日 -4.5%、一周 -5.0%、至今 -16.4%；期间最高浮盈 +21.9%，最大回撤 -19.3%。 喊单后不升反跌。（同期标普 +1.3%，超额 -17.7%）"
+      "bench_since": 1.68,
+      "excess_since": -18.19,
+      "days_tracked": 63,
+      "kline_read": "次日 -6.1%、3日 -4.5%、一周 -5.0%、至今 -16.5%；期间最高浮盈 +21.9%，最大回撤 -19.3%。 喊单后不升反跌。（同期标普 +1.7%，超额 -18.2%）"
     },
     {
       "post_id": "38444",
@@ -8339,18 +8489,18 @@
       "matched": "Sanjay Mehrotra",
       "entry_date": "2026-05-13",
       "entry_price": 803.63,
-      "latest_date": "2026-07-14",
-      "latest_price": 983.12,
-      "return_since": 22.33,
+      "latest_date": "2026-07-15",
+      "latest_price": 904.28,
+      "return_since": 12.52,
       "return_next_day": -3.44,
       "return_3d": -15.19,
       "return_1w": -8.91,
       "max_gain": 56.17,
       "max_drawdown": -18.84,
-      "bench_since": 1.28,
-      "excess_since": 21.05,
-      "days_tracked": 62,
-      "kline_read": "次日 -3.4%、3日 -15.2%、一周 -8.9%、至今 +22.3%；期间最高浮盈 +56.2%，最大回撤 -18.8%。 喊单后明显上涨。（同期标普 +1.3%，超额 +21.1%）"
+      "bench_since": 1.68,
+      "excess_since": 10.84,
+      "days_tracked": 63,
+      "kline_read": "次日 -3.4%、3日 -15.2%、一周 -8.9%、至今 +12.5%；期间最高浮盈 +56.2%，最大回撤 -18.8%。 喊单后明显上涨。（同期标普 +1.7%，超额 +10.8%）"
     },
     {
       "post_id": "38444",
@@ -8367,18 +8517,18 @@
       "matched": "Jane Fraser",
       "entry_date": "2026-05-13",
       "entry_price": 124.1,
-      "latest_date": "2026-07-14",
-      "latest_price": 133.27,
-      "return_since": 7.39,
+      "latest_date": "2026-07-15",
+      "latest_price": 134.89,
+      "return_since": 8.69,
       "return_next_day": 0.58,
       "return_3d": -1.36,
       "return_1w": 0.58,
       "max_gain": 19.23,
       "max_drawdown": -3.5,
-      "bench_since": 1.28,
-      "excess_since": 6.11,
-      "days_tracked": 62,
-      "kline_read": "次日 +0.6%、3日 -1.4%、一周 +0.6%、至今 +7.4%；期间最高浮盈 +19.2%，最大回撤 -3.5%。 喊单后小幅走高。（同期标普 +1.3%，超额 +6.1%）"
+      "bench_since": 1.68,
+      "excess_since": 7.01,
+      "days_tracked": 63,
+      "kline_read": "次日 +0.6%、3日 -1.4%、一周 +0.6%、至今 +8.7%；期间最高浮盈 +19.2%，最大回撤 -3.5%。 喊单后小幅走高。（同期标普 +1.7%，超额 +7.0%）"
     },
     {
       "post_id": "38444",
@@ -8395,18 +8545,18 @@
       "matched": "Larry Culp",
       "entry_date": "2026-05-13",
       "entry_price": 294.71,
-      "latest_date": "2026-07-14",
-      "latest_price": 353.73,
-      "return_since": 20.03,
+      "latest_date": "2026-07-15",
+      "latest_price": 360.35,
+      "return_since": 22.27,
       "return_next_day": -1.08,
       "return_3d": -2.96,
       "return_1w": 1.85,
       "max_gain": 29.95,
       "max_drawdown": -4.55,
-      "bench_since": 1.28,
-      "excess_since": 18.75,
-      "days_tracked": 62,
-      "kline_read": "次日 -1.1%、3日 -3.0%、一周 +1.9%、至今 +20.0%；期间最高浮盈 +29.9%，最大回撤 -4.5%。 喊单后明显上涨。（同期标普 +1.3%，超额 +18.8%）"
+      "bench_since": 1.68,
+      "excess_since": 20.59,
+      "days_tracked": 63,
+      "kline_read": "次日 -1.1%、3日 -3.0%、一周 +1.9%、至今 +22.3%；期间最高浮盈 +29.9%，最大回撤 -4.5%。 喊单后明显上涨。（同期标普 +1.7%，超额 +20.6%）"
     },
     {
       "post_id": "38244",
@@ -8423,18 +8573,18 @@
       "matched": "Eli Lilly",
       "entry_date": "2026-05-06",
       "entry_price": 987.05,
-      "latest_date": "2026-07-14",
-      "latest_price": 1152.54,
-      "return_since": 16.77,
+      "latest_date": "2026-07-15",
+      "latest_price": 1156.63,
+      "return_since": 17.18,
       "return_next_day": -1.22,
       "return_3d": -2.03,
       "return_1w": 2.91,
       "max_gain": 26.58,
       "max_drawdown": -4.44,
-      "bench_since": 2.45,
+      "bench_since": 2.86,
       "excess_since": 14.32,
-      "days_tracked": 69,
-      "kline_read": "次日 -1.2%、3日 -2.0%、一周 +2.9%、至今 +16.8%；期间最高浮盈 +26.6%，最大回撤 -4.4%。 喊单后明显上涨。（同期标普 +2.5%，超额 +14.3%）"
+      "days_tracked": 70,
+      "kline_read": "次日 -1.2%、3日 -2.0%、一周 +2.9%、至今 +17.2%；期间最高浮盈 +26.6%，最大回撤 -4.4%。 喊单后明显上涨。（同期标普 +2.9%，超额 +14.3%）"
     },
     {
       "post_id": "38093",
@@ -8451,18 +8601,18 @@
       "matched": "Amazon",
       "entry_date": "2026-04-30",
       "entry_price": 265.06,
-      "latest_date": "2026-07-14",
-      "latest_price": 247.49,
-      "return_since": -6.63,
+      "latest_date": "2026-07-15",
+      "latest_price": 254.96,
+      "return_since": -3.81,
       "return_next_day": 1.21,
       "return_3d": 3.2,
       "return_1w": 2.31,
       "max_gain": 5.09,
       "max_drawdown": -14.91,
-      "bench_since": 4.62,
-      "excess_since": -11.25,
-      "days_tracked": 75,
-      "kline_read": "次日 +1.2%、3日 +3.2%、一周 +2.3%、至今 -6.6%；期间最高浮盈 +5.1%，最大回撤 -14.9%。 喊单后不升反跌。（同期标普 +4.6%，超额 -11.2%）"
+      "bench_since": 5.03,
+      "excess_since": -8.84,
+      "days_tracked": 76,
+      "kline_read": "次日 +1.2%、3日 +3.2%、一周 +2.3%、至今 -3.8%；期间最高浮盈 +5.1%，最大回撤 -14.9%。 喊单后不升反跌。（同期标普 +5.0%，超额 -8.8%）"
     },
     {
       "post_id": "38092",
@@ -8479,18 +8629,18 @@
       "matched": "Intel",
       "entry_date": "2026-04-30",
       "entry_price": 94.48,
-      "latest_date": "2026-07-14",
-      "latest_price": 107.76,
-      "return_since": 14.06,
+      "latest_date": "2026-07-15",
+      "latest_price": 102.99,
+      "return_since": 9.01,
       "return_next_day": 5.44,
       "return_3d": 14.47,
       "return_1w": 16.02,
       "max_gain": 50.67,
       "max_drawdown": -3.15,
-      "bench_since": 4.62,
-      "excess_since": 9.44,
-      "days_tracked": 75,
-      "kline_read": "次日 +5.4%、3日 +14.5%、一周 +16.0%、至今 +14.1%；期间最高浮盈 +50.7%，最大回撤 -3.1%。 喊单后明显上涨。（同期标普 +4.6%，超额 +9.4%）"
+      "bench_since": 5.03,
+      "excess_since": 3.98,
+      "days_tracked": 76,
+      "kline_read": "次日 +5.4%、3日 +14.5%、一周 +16.0%、至今 +9.0%；期间最高浮盈 +50.7%，最大回撤 -3.1%。 喊单后小幅走高。（同期标普 +5.0%，超额 +4.0%）"
     },
     {
       "post_id": "38068",
@@ -8507,18 +8657,18 @@
       "matched": "Disney",
       "entry_date": "2026-04-27",
       "entry_price": 102.35,
-      "latest_date": "2026-07-14",
-      "latest_price": 95.87,
-      "return_since": -6.33,
+      "latest_date": "2026-07-15",
+      "latest_price": 97.15,
+      "return_since": -5.08,
       "return_next_day": -0.86,
       "return_3d": 1.37,
       "return_1w": -1.02,
       "max_gain": 7.94,
       "max_drawdown": -7.4,
-      "bench_since": 5.13,
-      "excess_since": -11.46,
-      "days_tracked": 78,
-      "kline_read": "次日 -0.9%、3日 +1.4%、一周 -1.0%、至今 -6.3%；期间最高浮盈 +7.9%，最大回撤 -7.4%。 喊单后不升反跌。（同期标普 +5.1%，超额 -11.5%）"
+      "bench_since": 5.54,
+      "excess_since": -10.62,
+      "days_tracked": 79,
+      "kline_read": "次日 -0.9%、3日 +1.4%、一周 -1.0%、至今 -5.1%；期间最高浮盈 +7.9%，最大回撤 -7.4%。 喊单后不升反跌。（同期标普 +5.5%，超额 -10.6%）"
     },
     {
       "post_id": "38021",
@@ -8535,18 +8685,18 @@
       "matched": "Wells Fargo",
       "entry_date": "2026-04-24",
       "entry_price": 79.42,
-      "latest_date": "2026-07-14",
-      "latest_price": 85.29,
-      "return_since": 7.39,
+      "latest_date": "2026-07-15",
+      "latest_price": 87.51,
+      "return_since": 10.19,
       "return_next_day": 1.44,
       "return_3d": 2.63,
       "return_1w": 1.75,
-      "max_gain": 11.65,
+      "max_gain": 11.66,
       "max_drawdown": -8.36,
-      "bench_since": 5.31,
-      "excess_since": 2.08,
-      "days_tracked": 81,
-      "kline_read": "次日 +1.4%、3日 +2.6%、一周 +1.8%、至今 +7.4%；期间最高浮盈 +11.7%，最大回撤 -8.4%。 喊单后小幅走高。（同期标普 +5.3%，超额 +2.1%）"
+      "bench_since": 5.72,
+      "excess_since": 4.47,
+      "days_tracked": 82,
+      "kline_read": "次日 +1.4%、3日 +2.6%、一周 +1.8%、至今 +10.2%；期间最高浮盈 +11.7%，最大回撤 -8.4%。 喊单后明显上涨。（同期标普 +5.7%，超额 +4.5%）"
     },
     {
       "post_id": "38019",
@@ -8563,18 +8713,18 @@
       "matched": "TRUTH SOCIAL",
       "entry_date": "2026-04-24",
       "entry_price": 9.35,
-      "latest_date": "2026-07-14",
-      "latest_price": 9.03,
-      "return_since": -3.42,
+      "latest_date": "2026-07-15",
+      "latest_price": 9.57,
+      "return_since": 2.35,
       "return_next_day": 6.42,
       "return_3d": -1.93,
       "return_1w": 0.43,
       "max_gain": 8.56,
       "max_drawdown": -25.56,
-      "bench_since": 5.31,
-      "excess_since": -8.73,
-      "days_tracked": 81,
-      "kline_read": "次日 +6.4%、3日 -1.9%、一周 +0.4%、至今 -3.4%；期间最高浮盈 +8.6%，最大回撤 -25.6%。 喊单后不升反跌。（同期标普 +5.3%，超额 -8.7%）"
+      "bench_since": 5.72,
+      "excess_since": -3.37,
+      "days_tracked": 82,
+      "kline_read": "次日 +6.4%、3日 -1.9%、一周 +0.4%、至今 +2.4%；期间最高浮盈 +8.6%，最大回撤 -25.6%。 喊单后小幅走高。（同期标普 +5.7%，超额 -3.4%）"
     },
     {
       "post_id": "37953",
@@ -8591,18 +8741,18 @@
       "matched": "Tim Cook",
       "entry_date": "2026-04-21",
       "entry_price": 266.17,
-      "latest_date": "2026-07-14",
-      "latest_price": 314.86,
-      "return_since": 18.29,
+      "latest_date": "2026-07-15",
+      "latest_price": 327.5,
+      "return_since": 23.04,
       "return_next_day": 2.63,
       "return_3d": 1.84,
       "return_1w": 1.71,
-      "max_gain": 21.52,
+      "max_gain": 23.5,
       "max_drawdown": -0.41,
-      "bench_since": 6.78,
-      "excess_since": 11.51,
-      "days_tracked": 84,
-      "kline_read": "次日 +2.6%、3日 +1.8%、一周 +1.7%、至今 +18.3%；期间最高浮盈 +21.5%，最大回撤 -0.4%。 喊单后明显上涨。（同期标普 +6.8%，超额 +11.5%）"
+      "bench_since": 7.21,
+      "excess_since": 15.83,
+      "days_tracked": 85,
+      "kline_read": "次日 +2.6%、3日 +1.8%、一周 +1.7%、至今 +23.0%；期间最高浮盈 +23.5%，最大回撤 -0.4%。 喊单后明显上涨。（同期标普 +7.2%，超额 +15.8%）"
     },
     {
       "post_id": "37847",
@@ -8619,18 +8769,18 @@
       "matched": "Apple",
       "entry_date": "2026-04-17",
       "entry_price": 270.23,
-      "latest_date": "2026-07-14",
-      "latest_price": 314.86,
-      "return_since": 16.52,
+      "latest_date": "2026-07-15",
+      "latest_price": 327.5,
+      "return_since": 21.19,
       "return_next_day": 1.04,
       "return_3d": 1.09,
       "return_1w": 0.31,
-      "max_gain": 19.69,
+      "max_gain": 21.64,
       "max_drawdown": -1.91,
-      "bench_since": 5.87,
-      "excess_since": 10.65,
-      "days_tracked": 88,
-      "kline_read": "次日 +1.0%、3日 +1.1%、一周 +0.3%、至今 +16.5%；期间最高浮盈 +19.7%，最大回撤 -1.9%。 喊单后明显上涨。（同期标普 +5.9%，超额 +10.7%）"
+      "bench_since": 6.29,
+      "excess_since": 14.9,
+      "days_tracked": 89,
+      "kline_read": "次日 +1.0%、3日 +1.1%、一周 +0.3%、至今 +21.2%；期间最高浮盈 +21.6%，最大回撤 -1.9%。 喊单后明显上涨。（同期标普 +6.3%，超额 +14.9%）"
     },
     {
       "post_id": "37688",
@@ -8647,18 +8797,18 @@
       "matched": "Palantir",
       "entry_date": "2026-04-10",
       "entry_price": 128.06,
-      "latest_date": "2026-07-14",
-      "latest_price": 133.72,
-      "return_since": 4.42,
+      "latest_date": "2026-07-15",
+      "latest_price": 133.76,
+      "return_since": 4.45,
       "return_next_day": 3.37,
       "return_3d": 11.0,
       "return_1w": 14.31,
       "max_gain": 27.83,
       "max_drawdown": -16.94,
-      "bench_since": 10.65,
-      "excess_since": -6.23,
-      "days_tracked": 95,
-      "kline_read": "次日 +3.4%、3日 +11.0%、一周 +14.3%、至今 +4.4%；期间最高浮盈 +27.8%，最大回撤 -16.9%。 喊单后小幅走高。（同期标普 +10.7%，超额 -6.2%）"
+      "bench_since": 11.09,
+      "excess_since": -6.64,
+      "days_tracked": 96,
+      "kline_read": "次日 +3.4%、3日 +11.0%、一周 +14.3%、至今 +4.5%；期间最高浮盈 +27.8%，最大回撤 -16.9%。 喊单后小幅走高。（同期标普 +11.1%，超额 -6.6%）"
     },
     {
       "post_id": "37684",
@@ -8675,18 +8825,18 @@
       "matched": "Pfizer",
       "entry_date": "2026-04-10",
       "entry_price": 26.92,
-      "latest_date": "2026-07-14",
-      "latest_price": 24.25,
-      "return_since": -9.92,
+      "latest_date": "2026-07-15",
+      "latest_price": 24.82,
+      "return_since": -7.8,
       "return_next_day": 1.56,
       "return_3d": 1.0,
       "return_1w": 2.38,
       "max_gain": 3.45,
       "max_drawdown": -12.26,
-      "bench_since": 10.65,
-      "excess_since": -20.57,
-      "days_tracked": 95,
-      "kline_read": "次日 +1.6%、3日 +1.0%、一周 +2.4%、至今 -9.9%；期间最高浮盈 +3.5%，最大回撤 -12.3%。 喊单后不升反跌。（同期标普 +10.7%，超额 -20.6%）"
+      "bench_since": 11.09,
+      "excess_since": -18.89,
+      "days_tracked": 96,
+      "kline_read": "次日 +1.6%、3日 +1.0%、一周 +2.4%、至今 -7.8%；期间最高浮盈 +3.5%，最大回撤 -12.3%。 喊单后不升反跌。（同期标普 +11.1%，超额 -18.9%）"
     },
     {
       "post_id": "37684",
@@ -8703,18 +8853,18 @@
       "matched": "Eli Lilly",
       "entry_date": "2026-04-10",
       "entry_price": 939.47,
-      "latest_date": "2026-07-14",
-      "latest_price": 1152.54,
-      "return_since": 22.68,
+      "latest_date": "2026-07-15",
+      "latest_price": 1156.63,
+      "return_since": 23.12,
       "return_next_day": -1.06,
       "return_3d": -3.67,
       "return_1w": -1.32,
       "max_gain": 33.0,
       "max_drawdown": -9.47,
-      "bench_since": 10.65,
+      "bench_since": 11.09,
       "excess_since": 12.03,
-      "days_tracked": 95,
-      "kline_read": "次日 -1.1%、3日 -3.7%、一周 -1.3%、至今 +22.7%；期间最高浮盈 +33.0%，最大回撤 -9.5%。 喊单后明显上涨。（同期标普 +10.7%，超额 +12.0%）"
+      "days_tracked": 96,
+      "kline_read": "次日 -1.1%、3日 -3.7%、一周 -1.3%、至今 +23.1%；期间最高浮盈 +33.0%，最大回撤 -9.5%。 喊单后明显上涨。（同期标普 +11.1%，超额 +12.0%）"
     },
     {
       "post_id": "37684",
@@ -8731,18 +8881,18 @@
       "matched": "AstraZeneca",
       "entry_date": "2026-04-10",
       "entry_price": 204.03,
-      "latest_date": "2026-07-14",
-      "latest_price": 164.5,
-      "return_since": -19.37,
+      "latest_date": "2026-07-15",
+      "latest_price": 168.37,
+      "return_since": -17.48,
       "return_next_day": -0.88,
       "return_3d": -1.38,
       "return_1w": 0.38,
       "max_gain": 1.6,
       "max_drawdown": -19.4,
-      "bench_since": 10.65,
-      "excess_since": -30.02,
-      "days_tracked": 95,
-      "kline_read": "次日 -0.9%、3日 -1.4%、一周 +0.4%、至今 -19.4%；期间最高浮盈 +1.6%，最大回撤 -19.4%。 喊单后不升反跌。（同期标普 +10.7%，超额 -30.0%）"
+      "bench_since": 11.09,
+      "excess_since": -28.57,
+      "days_tracked": 96,
+      "kline_read": "次日 -0.9%、3日 -1.4%、一周 +0.4%、至今 -17.5%；期间最高浮盈 +1.6%，最大回撤 -19.4%。 喊单后不升反跌。（同期标普 +11.1%，超额 -28.6%）"
     },
     {
       "post_id": "37684",
@@ -8759,18 +8909,18 @@
       "matched": "Novo Nordisk",
       "entry_date": "2026-04-10",
       "entry_price": 37.52,
-      "latest_date": "2026-07-14",
-      "latest_price": 49.07,
-      "return_since": 30.78,
+      "latest_date": "2026-07-15",
+      "latest_price": 50.56,
+      "return_since": 34.75,
       "return_next_day": 1.23,
       "return_3d": 8.77,
       "return_1w": 8.0,
-      "max_gain": 35.66,
+      "max_gain": 35.93,
       "max_drawdown": -1.52,
-      "bench_since": 10.65,
-      "excess_since": 20.13,
-      "days_tracked": 95,
-      "kline_read": "次日 +1.2%、3日 +8.8%、一周 +8.0%、至今 +30.8%；期间最高浮盈 +35.7%，最大回撤 -1.5%。 喊单后明显上涨。（同期标普 +10.7%，超额 +20.1%）"
+      "bench_since": 11.09,
+      "excess_since": 23.66,
+      "days_tracked": 96,
+      "kline_read": "次日 +1.2%、3日 +8.8%、一周 +8.0%、至今 +34.8%；期间最高浮盈 +35.9%，最大回撤 -1.5%。 喊单后明显上涨。（同期标普 +11.1%，超额 +23.7%）"
     },
     {
       "post_id": "37625",
@@ -8787,18 +8937,18 @@
       "matched": "Pfizer",
       "entry_date": "2026-04-07",
       "entry_price": 27.1,
-      "latest_date": "2026-07-14",
-      "latest_price": 24.25,
-      "return_since": -10.52,
+      "latest_date": "2026-07-15",
+      "latest_price": 24.82,
+      "return_since": -8.41,
       "return_next_day": 1.37,
       "return_3d": -0.66,
       "return_1w": 0.04,
       "max_gain": 2.77,
       "max_drawdown": -12.84,
-      "bench_since": 14.05,
-      "excess_since": -24.57,
-      "days_tracked": 98,
-      "kline_read": "次日 +1.4%、3日 -0.7%、一周 +0.0%、至今 -10.5%；期间最高浮盈 +2.8%，最大回撤 -12.8%。 喊单后不升反跌。（同期标普 +14.1%，超额 -24.6%）"
+      "bench_since": 14.5,
+      "excess_since": -22.91,
+      "days_tracked": 99,
+      "kline_read": "次日 +1.4%、3日 -0.7%、一周 +0.0%、至今 -8.4%；期间最高浮盈 +2.8%，最大回撤 -12.8%。 喊单后不升反跌。（同期标普 +14.5%，超额 -22.9%）"
     },
     {
       "post_id": "37625",
@@ -8815,18 +8965,18 @@
       "matched": "Eli Lilly",
       "entry_date": "2026-04-07",
       "entry_price": 931.09,
-      "latest_date": "2026-07-14",
-      "latest_price": 1152.54,
-      "return_since": 23.78,
+      "latest_date": "2026-07-15",
+      "latest_price": 1156.63,
+      "return_since": 24.22,
       "return_next_day": 2.39,
       "return_3d": 0.9,
       "return_1w": -0.92,
       "max_gain": 34.19,
       "max_drawdown": -8.65,
-      "bench_since": 14.05,
-      "excess_since": 9.73,
-      "days_tracked": 98,
-      "kline_read": "次日 +2.4%、3日 +0.9%、一周 -0.9%、至今 +23.8%；期间最高浮盈 +34.2%，最大回撤 -8.7%。 喊单后明显上涨。（同期标普 +14.1%，超额 +9.7%）"
+      "bench_since": 14.5,
+      "excess_since": 9.72,
+      "days_tracked": 99,
+      "kline_read": "次日 +2.4%、3日 +0.9%、一周 -0.9%、至今 +24.2%；期间最高浮盈 +34.2%，最大回撤 -8.7%。 喊单后明显上涨。（同期标普 +14.5%，超额 +9.7%）"
     },
     {
       "post_id": "37625",
@@ -8843,18 +8993,18 @@
       "matched": "AstraZeneca",
       "entry_date": "2026-04-07",
       "entry_price": 200.81,
-      "latest_date": "2026-07-14",
-      "latest_price": 164.5,
-      "return_since": -18.08,
+      "latest_date": "2026-07-15",
+      "latest_price": 168.37,
+      "return_since": -16.15,
       "return_next_day": 1.72,
       "return_3d": 1.6,
       "return_1w": 1.78,
       "max_gain": 3.23,
       "max_drawdown": -18.11,
-      "bench_since": 14.05,
-      "excess_since": -32.13,
-      "days_tracked": 98,
-      "kline_read": "次日 +1.7%、3日 +1.6%、一周 +1.8%、至今 -18.1%；期间最高浮盈 +3.2%，最大回撤 -18.1%。 喊单后不升反跌。（同期标普 +14.1%，超额 -32.1%）"
+      "bench_since": 14.5,
+      "excess_since": -30.65,
+      "days_tracked": 99,
+      "kline_read": "次日 +1.7%、3日 +1.6%、一周 +1.8%、至今 -16.1%；期间最高浮盈 +3.2%，最大回撤 -18.1%。 喊单后不升反跌。（同期标普 +14.5%，超额 -30.6%）"
     },
     {
       "post_id": "37625",
@@ -8871,18 +9021,18 @@
       "matched": "Novo Nordisk",
       "entry_date": "2026-04-07",
       "entry_price": 36.91,
-      "latest_date": "2026-07-14",
-      "latest_price": 49.07,
-      "return_since": 32.95,
+      "latest_date": "2026-07-15",
+      "latest_price": 50.56,
+      "return_since": 36.98,
       "return_next_day": 1.9,
       "return_3d": 1.65,
       "return_1w": 6.53,
-      "max_gain": 37.9,
+      "max_gain": 38.17,
       "max_drawdown": -2.55,
-      "bench_since": 14.05,
-      "excess_since": 18.9,
-      "days_tracked": 98,
-      "kline_read": "次日 +1.9%、3日 +1.6%、一周 +6.5%、至今 +33.0%；期间最高浮盈 +37.9%，最大回撤 -2.5%。 喊单后明显上涨。（同期标普 +14.1%，超额 +18.9%）"
+      "bench_since": 14.5,
+      "excess_since": 22.48,
+      "days_tracked": 99,
+      "kline_read": "次日 +1.9%、3日 +1.6%、一周 +6.5%、至今 +37.0%；期间最高浮盈 +38.2%，最大回撤 -2.5%。 喊单后明显上涨。（同期标普 +14.5%，超额 +22.5%）"
     }
   ],
   "charts": {
@@ -9387,10 +9537,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 313.64,
+          "o": 313.76,
           "h": 316.19,
           "l": 311.91,
           "c": 314.86
+        },
+        {
+          "date": "2026-07-15",
+          "o": 317.625,
+          "h": 328.72,
+          "l": 317.32,
+          "c": 327.5
         }
       ],
       "marks": [
@@ -9902,10 +10059,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 245.53,
+          "o": 245.55,
           "h": 248.56,
           "l": 243.8,
           "c": 247.49
+        },
+        {
+          "date": "2026-07-15",
+          "o": 249.97,
+          "h": 256.48,
+          "l": 249.92,
+          "c": 254.96
         }
       ],
       "marks": [
@@ -10417,6 +10581,13 @@
           "h": 168.1,
           "l": 164.45,
           "c": 164.5
+        },
+        {
+          "date": "2026-07-15",
+          "o": 166.22,
+          "h": 169.575,
+          "l": 166.21,
+          "c": 168.37
         }
       ],
       "marks": [
@@ -10926,9 +11097,16 @@
         {
           "date": "2026-07-14",
           "o": 216.96,
-          "h": 220.24,
+          "h": 220.29,
           "l": 216.38,
           "c": 217.11
+        },
+        {
+          "date": "2026-07-15",
+          "o": 217.79,
+          "h": 221.93,
+          "l": 217.255,
+          "c": 218.12
         }
       ],
       "marks": [
@@ -11674,10 +11852,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 62259.1602,
-          "h": 64833.668,
-          "l": 62238.2422,
-          "c": 64595.0391
+          "o": 62238.5859,
+          "h": 65046.1328,
+          "l": 62207.5234,
+          "c": 64956.1133
+        },
+        {
+          "date": "2026-07-15",
+          "o": 64974.7539,
+          "h": 65467.4297,
+          "l": 64445.043,
+          "c": 64857.2109
         }
       ],
       "marks": [
@@ -12187,9 +12372,16 @@
         {
           "date": "2026-07-14",
           "o": 137.74,
-          "h": 144.2825,
+          "h": 144.29,
           "l": 132.16,
           "c": 133.27
+        },
+        {
+          "date": "2026-07-15",
+          "o": 134.08,
+          "h": 135.115,
+          "l": 131.8,
+          "c": 134.89
         }
       ],
       "marks": [
@@ -12698,9 +12890,16 @@
         {
           "date": "2026-07-14",
           "o": 95.51,
-          "h": 96.685,
+          "h": 96.69,
           "l": 95.13,
           "c": 95.87
+        },
+        {
+          "date": "2026-07-15",
+          "o": 96.1,
+          "h": 97.9,
+          "l": 96.1,
+          "c": 97.15
         }
       ],
       "marks": [
@@ -13208,10 +13407,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 8.64,
+          "o": 8.63,
           "h": 9.23,
           "l": 8.63,
           "c": 9.03
+        },
+        {
+          "date": "2026-07-15",
+          "o": 9.04,
+          "h": 9.6,
+          "l": 8.99,
+          "c": 9.57
         }
       ],
       "marks": [
@@ -13723,6 +13929,13 @@
           "h": 359.2,
           "l": 352.57,
           "c": 353.73
+        },
+        {
+          "date": "2026-07-15",
+          "o": 355.6,
+          "h": 360.62,
+          "l": 353.35,
+          "c": 360.35
         }
       ],
       "marks": [
@@ -14231,9 +14444,16 @@
         {
           "date": "2026-07-14",
           "o": 1085.0,
-          "h": 1143.785,
+          "h": 1143.84,
           "l": 1082.0,
           "c": 1140.0
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1148.42,
+          "h": 1153.99,
+          "l": 1117.5305,
+          "c": 1152.0699
         }
       ],
       "marks": [
@@ -14741,10 +14961,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 107.96,
+          "o": 107.98,
           "h": 109.19,
-          "l": 103.5905,
+          "l": 103.59,
           "c": 107.76
+        },
+        {
+          "date": "2026-07-15",
+          "o": 109.3,
+          "h": 109.49,
+          "l": 99.2,
+          "c": 102.99
         }
       ],
       "marks": [
@@ -15254,9 +15481,16 @@
         {
           "date": "2026-07-14",
           "o": 1166.01,
-          "h": 1164.83,
-          "l": 1140.755,
+          "h": 1166.01,
+          "l": 1140.74,
           "c": 1152.54
+        },
+        {
+          "date": "2026-07-15",
+          "o": 1145.5,
+          "h": 1160.8199,
+          "l": 1134.438,
+          "c": 1156.63
         }
       ],
       "marks": [
@@ -15766,10 +16000,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 987.95,
+          "o": 988.38,
           "h": 994.8,
           "l": 950.07,
           "c": 983.12
+        },
+        {
+          "date": "2026-07-15",
+          "o": 975.805,
+          "h": 978.4,
+          "l": 873.6301,
+          "c": 904.28
         }
       ],
       "marks": [
@@ -16281,9 +16522,16 @@
         {
           "date": "2026-07-14",
           "o": 208.2,
-          "h": 212.54,
+          "h": 212.55,
           "l": 203.8,
           "c": 211.8
+        },
+        {
+          "date": "2026-07-15",
+          "o": 212.01,
+          "h": 213.81,
+          "l": 206.04,
+          "c": 212.5
         }
       ],
       "marks": [
@@ -16792,10 +17040,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 48.775,
+          "o": 48.78,
           "h": 49.27,
-          "l": 48.292,
+          "l": 48.29,
           "c": 49.07
+        },
+        {
+          "date": "2026-07-15",
+          "o": 49.36,
+          "h": 51.0,
+          "l": 49.36,
+          "c": 50.56
         }
       ],
       "marks": [
@@ -17308,6 +17563,13 @@
           "h": 24.43,
           "l": 24.14,
           "c": 24.25
+        },
+        {
+          "date": "2026-07-15",
+          "o": 24.34,
+          "h": 24.82,
+          "l": 24.31,
+          "c": 24.82
         }
       ],
       "marks": [
@@ -17816,10 +18078,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 123.612,
-          "h": 135.7899,
+          "o": 123.61,
+          "h": 135.79,
           "l": 122.64,
           "c": 133.72
+        },
+        {
+          "date": "2026-07-15",
+          "o": 134.17,
+          "h": 136.88,
+          "l": 132.88,
+          "c": 133.76
         }
       ],
       "marks": [
@@ -18331,6 +18600,13 @@
           "h": 189.99,
           "l": 177.45,
           "c": 178.1
+        },
+        {
+          "date": "2026-07-15",
+          "o": 179.79,
+          "h": 180.71,
+          "l": 174.76,
+          "c": 177.98
         }
       ],
       "marks": [
@@ -18839,9 +19115,16 @@
         {
           "date": "2026-07-14",
           "o": 84.85,
-          "h": 88.67,
+          "h": 88.68,
           "l": 83.83,
           "c": 85.29
+        },
+        {
+          "date": "2026-07-15",
+          "o": 85.94,
+          "h": 87.625,
+          "l": 85.7,
+          "c": 87.51
         }
       ],
       "marks": [
@@ -19349,10 +19632,17 @@
         },
         {
           "date": "2026-07-14",
-          "o": 114.925,
+          "o": 115.08,
           "h": 115.88,
-          "l": 113.5005,
+          "l": 113.5,
           "c": 113.7
+        },
+        {
+          "date": "2026-07-15",
+          "o": 113.18,
+          "h": 114.73,
+          "l": 112.07,
+          "c": 112.53
         }
       ],
       "marks": [
