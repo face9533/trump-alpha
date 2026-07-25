@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T07:21:53",
+  "generated_at": "2026-07-26T07:22:39",
   "as_of_date": "2026-07-24",
   "window_days": 60,
   "summary": {
     "count": 45,
     "unique_tickers": 23,
     "win_rate": 35.6,
-    "avg_return_since": 1.11,
-    "avg_excess_since": -1.01,
+    "avg_return_since": 1.12,
+    "avg_excess_since": -1.0,
     "beat_market_rate": 35.6,
     "bull_count": 14,
     "bull_win_rate": 21.4,
@@ -120,7 +120,7 @@
       },
       {
         "key": "至今",
-        "avg": 1.11,
+        "avg": 1.12,
         "win": 35.6,
         "n": 45
       }
@@ -171,9 +171,9 @@
       {
         "sector": "加密货币",
         "n": 2,
-        "avg": -13.31,
+        "avg": -13.16,
         "win": 0.0,
-        "excess": -11.5
+        "excess": -11.34
       }
     ],
     "findings": [
@@ -328,9 +328,9 @@
       {
         "ticker": "BTC-USD",
         "company": "比特币",
-        "day_move": -1.46,
+        "day_move": -1.45,
         "sentiment": "neutral",
-        "return_since": -12.84
+        "return_since": -12.68
       },
       {
         "ticker": "META",
@@ -529,9 +529,9 @@
         {
           "ticker": "BTC-USD",
           "company": "比特币",
-          "day_move": -1.46,
+          "day_move": -1.45,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "META",
@@ -695,7 +695,7 @@
           "company": "比特币",
           "day_move": -1.6,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "GS",
@@ -838,7 +838,7 @@
           "company": "比特币",
           "day_move": -0.61,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "TSM",
@@ -995,7 +995,7 @@
           "company": "比特币",
           "day_move": 1.95,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "QCOM",
@@ -1152,7 +1152,7 @@
           "company": "比特币",
           "day_move": 0.83,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "DJT",
@@ -1317,7 +1317,7 @@
           "company": "比特币",
           "day_move": 0.17,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "AAPL",
@@ -1538,7 +1538,7 @@
           "company": "比特币",
           "day_move": -1.43,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "BA",
@@ -1772,7 +1772,7 @@
           "company": "比特币",
           "day_move": -0.38,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "WMT",
@@ -1838,7 +1838,7 @@
           "company": "比特币",
           "day_move": 4.37,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "NVDA",
@@ -2093,7 +2093,7 @@
           "company": "比特币",
           "day_move": -2.38,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "QCOM",
@@ -2202,7 +2202,7 @@
           "company": "比特币",
           "day_move": 1.48,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "NVO",
@@ -2401,7 +2401,7 @@
           "company": "比特币",
           "day_move": 1.5,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "AMZN",
@@ -2635,7 +2635,7 @@
           "company": "比特币",
           "day_move": -1.64,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "WFC",
@@ -2793,7 +2793,7 @@
           "company": "比特币",
           "day_move": -1.09,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "GS",
@@ -2972,7 +2972,7 @@
           "company": "比特币",
           "day_move": 0.7,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "AMZN",
@@ -3116,7 +3116,7 @@
           "company": "比特币",
           "day_move": 2.47,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "LLY",
@@ -3267,7 +3267,7 @@
           "company": "比特币",
           "day_move": 2.47,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "AAPL",
@@ -3564,7 +3564,7 @@
           "company": "比特币",
           "day_move": -2.63,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         }
       ],
       "n_up": 11,
@@ -3658,7 +3658,7 @@
           "company": "比特币",
           "day_move": 1.02,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "DJT",
@@ -3822,7 +3822,7 @@
           "company": "比特币",
           "day_move": 0.49,
           "sentiment": "neutral",
-          "return_since": -12.84
+          "return_since": -12.68
         },
         {
           "ticker": "WMT",
@@ -9662,7 +9662,7 @@
       "return_3d": null,
       "return_1w": null,
       "max_gain": 2.48,
-      "max_drawdown": -0.1,
+      "max_drawdown": -0.12,
       "bench_since": 0.0,
       "excess_since": 0.0,
       "days_tracked": 0,
@@ -9718,7 +9718,7 @@
       "return_3d": null,
       "return_1w": null,
       "max_gain": 1.39,
-      "max_drawdown": -0.75,
+      "max_drawdown": -0.76,
       "bench_since": 0.0,
       "excess_since": 0.0,
       "days_tracked": 0,
@@ -9802,11 +9802,11 @@
       "return_3d": -3.12,
       "return_1w": -8.79,
       "max_gain": 2.61,
-      "max_drawdown": -10.52,
+      "max_drawdown": -10.55,
       "bench_since": -1.57,
       "excess_since": -8.87,
       "days_tracked": 8,
-      "kline_read": "次日 -2.8%、3日 -3.1%、一周 -8.8%、至今 -10.4%；期间最高浮盈 +2.6%，最大回撤 -10.5%。 喊单后不升反跌。（同期标普 -1.6%，超额 -8.9%）"
+      "kline_read": "次日 -2.8%、3日 -3.1%、一周 -8.8%、至今 -10.4%；期间最高浮盈 +2.6%，最大回撤 -10.6%。 喊单后不升反跌。（同期标普 -1.6%，超额 -8.9%）"
     },
     {
       "post_id": "39933",
@@ -10131,18 +10131,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-28",
       "entry_price": 73536.5547,
-      "latest_date": "2026-07-24",
-      "latest_price": 64092.5,
-      "return_since": -12.84,
+      "latest_date": "2026-07-25",
+      "latest_price": 64209.9883,
+      "return_since": -12.68,
       "return_next_day": -0.22,
       "return_3d": 0.06,
       "return_1w": -9.29,
       "max_gain": 1.26,
       "max_drawdown": -21.47,
       "bench_since": -2.08,
-      "excess_since": -10.76,
-      "days_tracked": 57,
-      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -12.8%；期间最高浮盈 +1.3%，最大回撤 -21.5%。 喊单后不升反跌。（同期标普 -2.1%，超额 -10.8%）"
+      "excess_since": -10.6,
+      "days_tracked": 58,
+      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 -12.7%；期间最高浮盈 +1.3%，最大回撤 -21.5%。 喊单后不升反跌。（同期标普 -2.1%，超额 -10.6%）"
     },
     {
       "post_id": "38814",
@@ -10159,18 +10159,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-27",
       "entry_price": 74344.7031,
-      "latest_date": "2026-07-24",
-      "latest_price": 64092.5,
-      "return_since": -13.79,
+      "latest_date": "2026-07-25",
+      "latest_price": 64209.9883,
+      "return_since": -13.63,
       "return_next_day": -1.09,
       "return_3d": -0.79,
       "return_1w": -4.07,
       "max_gain": 2.25,
       "max_drawdown": -22.32,
       "bench_since": -1.54,
-      "excess_since": -12.25,
-      "days_tracked": 58,
-      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -13.8%；期间最高浮盈 +2.2%，最大回撤 -22.3%。 喊单后不升反跌。（同期标普 -1.5%，超额 -12.2%）"
+      "excess_since": -12.09,
+      "days_tracked": 59,
+      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 -13.6%；期间最高浮盈 +2.2%，最大回撤 -22.3%。 喊单后不升反跌。（同期标普 -1.5%，超额 -12.1%）"
     },
     {
       "post_id": "38444",
@@ -11431,7 +11431,7 @@
         },
         {
           "date": "2026-07-24",
-          "o": 322.04,
+          "o": 321.79,
           "h": 334.37,
           "l": 321.62,
           "c": 333.02
@@ -12003,9 +12003,9 @@
         },
         {
           "date": "2026-07-24",
-          "o": 234.37,
+          "o": 234.38,
           "h": 234.95,
-          "l": 231.35,
+          "l": 231.34,
           "c": 232.11
         }
       ],
@@ -13141,7 +13141,7 @@
           "date": "2026-07-24",
           "o": 210.09,
           "h": 212.49,
-          "l": 208.43,
+          "l": 208.4,
           "c": 209.52
         }
       ],
@@ -13958,10 +13958,17 @@
         },
         {
           "date": "2026-07-24",
-          "o": 65047.8711,
-          "h": 65713.9062,
-          "l": 63725.5469,
-          "c": 64092.5
+          "o": 65044.957,
+          "h": 65760.4844,
+          "l": 63686.0352,
+          "c": 64098.4961
+        },
+        {
+          "date": "2026-07-25",
+          "o": 64091.9609,
+          "h": 64377.2812,
+          "l": 63756.4688,
+          "c": 64209.9883
         }
       ],
       "marks": [
@@ -15094,7 +15101,7 @@
         {
           "date": "2026-07-24",
           "o": 93.26,
-          "h": 96.2899,
+          "h": 96.29,
           "l": 93.0,
           "c": 94.85
         }
@@ -16228,7 +16235,7 @@
         {
           "date": "2026-07-24",
           "o": 350.24,
-          "h": 359.97,
+          "h": 359.99,
           "l": 350.2,
           "c": 353.73
         }
@@ -16794,9 +16801,9 @@
         },
         {
           "date": "2026-07-24",
-          "o": 318.315,
+          "o": 318.42,
           "h": 324.18,
-          "l": 317.33,
+          "l": 317.32,
           "c": 319.74
         }
       ],
@@ -17362,7 +17369,7 @@
         {
           "date": "2026-07-24",
           "o": 1075.0,
-          "h": 1077.0909,
+          "h": 1077.38,
           "l": 1051.8199,
           "c": 1061.23
         }
@@ -17928,7 +17935,7 @@
         },
         {
           "date": "2026-07-24",
-          "o": 100.39,
+          "o": 100.36,
           "h": 101.74,
           "l": 91.58,
           "c": 92.32
@@ -18498,7 +18505,7 @@
           "date": "2026-07-24",
           "o": 1194.35,
           "h": 1206.9399,
-          "l": 1187.4983,
+          "l": 1187.5,
           "c": 1196.03
         }
       ],
@@ -19065,9 +19072,9 @@
         },
         {
           "date": "2026-07-24",
-          "o": 605.34,
+          "o": 605.3,
           "h": 609.98,
-          "l": 594.6,
+          "l": 594.45,
           "c": 595.19
         }
       ],
@@ -19634,7 +19641,7 @@
         {
           "date": "2026-07-24",
           "o": 959.03,
-          "h": 967.1255,
+          "h": 967.14,
           "l": 904.0,
           "c": 920.95
         }
@@ -20203,8 +20210,8 @@
         },
         {
           "date": "2026-07-24",
-          "o": 207.56,
-          "h": 211.9099,
+          "o": 207.45,
+          "h": 211.91,
           "l": 204.81,
           "c": 206.84
         }
@@ -20773,7 +20780,7 @@
           "date": "2026-07-24",
           "o": 48.83,
           "h": 49.52,
-          "l": 48.705,
+          "l": 48.71,
           "c": 48.77
         }
       ],
@@ -21907,8 +21914,8 @@
         },
         {
           "date": "2026-07-24",
-          "o": 125.3,
-          "h": 125.3,
+          "o": 125.165,
+          "h": 125.31,
           "l": 122.02,
           "c": 122.92
         }
@@ -22474,7 +22481,7 @@
         },
         {
           "date": "2026-07-24",
-          "o": 169.09,
+          "o": 169.69,
           "h": 171.1,
           "l": 165.77,
           "c": 166.97
@@ -23041,9 +23048,9 @@
         },
         {
           "date": "2026-07-24",
-          "o": 411.345,
-          "h": 412.88,
-          "l": 400.8001,
+          "o": 411.35,
+          "h": 412.92,
+          "l": 400.8,
           "c": 403.41
         }
       ],
