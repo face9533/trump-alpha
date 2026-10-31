@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-31T12:12:08",
+  "generated_at": "2026-11-01T07:12:22",
   "as_of_date": "2026-10-30",
   "window_days": 60,
   "summary": {
     "count": 88,
     "unique_tickers": 31,
     "win_rate": 46.6,
-    "avg_return_since": -1.55,
-    "avg_excess_since": -3.19,
+    "avg_return_since": -1.54,
+    "avg_excess_since": -3.18,
     "beat_market_rate": 44.3,
     "bull_count": 26,
     "bull_win_rate": 38.5,
@@ -120,7 +120,7 @@
       },
       {
         "key": "至今",
-        "avg": -1.55,
+        "avg": -1.54,
         "win": 46.6,
         "n": 88
       }
@@ -143,9 +143,9 @@
       {
         "sector": "加密货币",
         "n": 2,
-        "avg": 4.25,
+        "avg": 4.69,
         "win": 100.0,
-        "excess": 3.83
+        "excess": 4.27
       },
       {
         "sector": "医药",
@@ -191,7 +191,7 @@
       }
     ],
     "findings": [
-      "近期共 88 次有效喊单，整体胜率 47%，自喊单以来平均 -1.6%。",
+      "近期共 88 次有效喊单，整体胜率 47%，自喊单以来平均 -1.5%。",
       "上涨周期：平均在喊单后第 8 个交易日见高点（+0.9%），随后回落。（基于 83 次满 10 日的喊单）",
       "按持有时长看，「一周」胜率最高（54%）。",
       "行业里 消费 胜率最高（100%，4 次，平均 +11.6%）。",
@@ -201,7 +201,7 @@
   },
   "daily_review": {
     "date": "2026-10-30",
-    "headline": "10月30日特朗普当天没有新的股票相关发言；在追踪的 30 只里 8/30 当天上涨；涨幅最大 阿斯利康(AZN) +7.02%。（当天标普 -1.77%）",
+    "headline": "10月30日特朗普当天没有新的股票相关发言；在追踪的 31 只里 8/31 当天上涨；涨幅最大 阿斯利康(AZN) +7.02%。（当天标普 -1.77%）",
     "market_move": -1.77,
     "new_mentions": [],
     "movers": [
@@ -267,6 +267,13 @@
         "day_move": -0.64,
         "sentiment": "neutral",
         "return_since": -9.93
+      },
+      {
+        "ticker": "BTC-USD",
+        "company": "比特币",
+        "day_move": -0.74,
+        "sentiment": "neutral",
+        "return_since": 5.26
       },
       {
         "ticker": "TSLA",
@@ -417,12 +424,12 @@
       }
     ],
     "n_up": 8,
-    "n_tracked": 30
+    "n_tracked": 31
   },
   "review_history": [
     {
       "date": "2026-10-30",
-      "headline": "10月30日特朗普当天没有新的股票相关发言；在追踪的 30 只里 8/30 当天上涨；涨幅最大 阿斯利康(AZN) +7.02%。（当天标普 -1.77%）",
+      "headline": "10月30日特朗普当天没有新的股票相关发言；在追踪的 31 只里 8/31 当天上涨；涨幅最大 阿斯利康(AZN) +7.02%。（当天标普 -1.77%）",
       "market_move": -1.77,
       "new_mentions": [],
       "movers": [
@@ -488,6 +495,13 @@
           "day_move": -0.64,
           "sentiment": "neutral",
           "return_since": -9.93
+        },
+        {
+          "ticker": "BTC-USD",
+          "company": "比特币",
+          "day_move": -0.74,
+          "sentiment": "neutral",
+          "return_since": 5.26
         },
         {
           "ticker": "TSLA",
@@ -638,7 +652,7 @@
         }
       ],
       "n_up": 8,
-      "n_tracked": 30
+      "n_tracked": 31
     },
     {
       "date": "2026-10-29",
@@ -847,7 +861,7 @@
           "company": "比特币",
           "day_move": -4.3,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "MU",
@@ -969,7 +983,7 @@
           "company": "比特币",
           "day_move": 0.57,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "LLY",
@@ -1196,7 +1210,7 @@
           "company": "比特币",
           "day_move": 1.0,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "AAPL",
@@ -1487,7 +1501,7 @@
           "company": "比特币",
           "day_move": -0.02,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "BAC",
@@ -1630,7 +1644,7 @@
           "company": "比特币",
           "day_move": -0.29,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "DIS",
@@ -1962,7 +1976,7 @@
           "company": "比特币",
           "day_move": -3.21,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "NVDA",
@@ -2092,7 +2106,7 @@
           "company": "比特币",
           "day_move": 1.29,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "QCOM",
@@ -2305,7 +2319,7 @@
           "company": "比特币",
           "day_move": 1.33,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "QCOM",
@@ -2596,7 +2610,7 @@
           "company": "比特币",
           "day_move": -0.2,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "PFE",
@@ -2837,7 +2851,7 @@
           "company": "比特币",
           "day_move": -0.78,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "BAC",
@@ -3085,7 +3099,7 @@
           "company": "比特币",
           "day_move": 0.71,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "BAC",
@@ -3326,7 +3340,7 @@
           "company": "比特币",
           "day_move": -1.84,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "TSLA",
@@ -3427,7 +3441,7 @@
           "company": "比特币",
           "day_move": 1.63,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "INTC",
@@ -3836,7 +3850,7 @@
           "company": "比特币",
           "day_move": -2.29,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "INTC",
@@ -3959,7 +3973,7 @@
           "company": "比特币",
           "day_move": 1.07,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "GOOGL",
@@ -4277,7 +4291,7 @@
           "company": "比特币",
           "day_move": -1.92,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "AMZN",
@@ -4532,7 +4546,7 @@
           "company": "比特币",
           "day_move": -2.67,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "DJT",
@@ -4724,7 +4738,7 @@
           "company": "比特币",
           "day_move": -0.27,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "JPM",
@@ -4937,7 +4951,7 @@
           "company": "比特币",
           "day_move": -0.8,
           "sentiment": "neutral",
-          "return_since": 4.82
+          "return_since": 5.26
         },
         {
           "ticker": "GS",
@@ -14327,17 +14341,17 @@
       "entry_date": "2026-05-28",
       "entry_price": 73536.5547,
       "latest_date": "2026-10-31",
-      "latest_price": 77078.3594,
-      "return_since": 4.82,
+      "latest_price": 77406.9375,
+      "return_since": 5.26,
       "return_next_day": -0.22,
       "return_3d": 0.06,
       "return_1w": -9.29,
       "max_gain": 18.8,
       "max_drawdown": -21.47,
       "bench_since": 0.15,
-      "excess_since": 4.67,
+      "excess_since": 5.11,
       "days_tracked": 156,
-      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 +4.8%；期间最高浮盈 +18.8%，最大回撤 -21.5%。 喊单后小幅走高。（同期标普 +0.1%，超额 +4.7%）"
+      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 +5.3%；期间最高浮盈 +18.8%，最大回撤 -21.5%。 喊单后小幅走高。（同期标普 +0.1%，超额 +5.1%）"
     },
     {
       "post_id": "38814",
@@ -14355,17 +14369,17 @@
       "entry_date": "2026-05-27",
       "entry_price": 74344.7031,
       "latest_date": "2026-10-31",
-      "latest_price": 77078.3594,
-      "return_since": 3.68,
+      "latest_price": 77406.9375,
+      "return_since": 4.12,
       "return_next_day": -1.09,
       "return_3d": -0.79,
       "return_1w": -4.07,
       "max_gain": 17.51,
       "max_drawdown": -22.32,
       "bench_since": 0.7,
-      "excess_since": 2.98,
+      "excess_since": 3.42,
       "days_tracked": 157,
-      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 +3.7%；期间最高浮盈 +17.5%，最大回撤 -22.3%。 喊单后小幅走高。（同期标普 +0.7%，超额 +3.0%）"
+      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 +4.1%；期间最高浮盈 +17.5%，最大回撤 -22.3%。 喊单后小幅走高。（同期标普 +0.7%，超额 +3.4%）"
     },
     {
       "post_id": "38444",
@@ -21827,11 +21841,18 @@
           "c": 77775.1094
         },
         {
+          "date": "2026-10-30",
+          "o": 77775.1094,
+          "h": 78647.3906,
+          "l": 76189.8828,
+          "c": 77198.2109
+        },
+        {
           "date": "2026-10-31",
           "o": 77202.3984,
-          "h": 77434.1484,
+          "h": 77613.9766,
           "l": 77000.9219,
-          "c": 77078.3594
+          "c": 77406.9375
         }
       ],
       "marks": [
