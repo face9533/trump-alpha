@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:28:52",
+  "generated_at": "2026-11-09T07:28:31",
   "as_of_date": "2026-11-06",
   "window_days": 60,
   "summary": {
@@ -143,9 +143,9 @@
       {
         "sector": "加密货币",
         "n": 2,
-        "avg": 2.34,
+        "avg": 2.52,
         "win": 100.0,
-        "excess": 4.63
+        "excess": 4.8
       },
       {
         "sector": "医药",
@@ -315,7 +315,7 @@
         "company": "比特币",
         "day_move": -0.26,
         "sentiment": "neutral",
-        "return_since": 2.9
+        "return_since": 3.08
       },
       {
         "ticker": "AMZN",
@@ -543,7 +543,7 @@
           "company": "比特币",
           "day_move": -0.26,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "AMZN",
@@ -812,7 +812,7 @@
           "company": "比特币",
           "day_move": -5.55,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "GS",
@@ -955,7 +955,7 @@
           "company": "比特币",
           "day_move": 3.96,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "MRK",
@@ -1204,7 +1204,7 @@
           "company": "比特币",
           "day_move": 0.87,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "GOOGL",
@@ -1544,7 +1544,7 @@
           "company": "比特币",
           "day_move": -2.01,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "MSFT",
@@ -1652,7 +1652,7 @@
           "company": "比特币",
           "day_move": -0.74,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "TSLA",
@@ -2012,7 +2012,7 @@
           "company": "比特币",
           "day_move": -4.3,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "MU",
@@ -2134,7 +2134,7 @@
           "company": "比特币",
           "day_move": 0.57,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "LLY",
@@ -2361,7 +2361,7 @@
           "company": "比特币",
           "day_move": 1.0,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "AAPL",
@@ -2652,7 +2652,7 @@
           "company": "比特币",
           "day_move": -0.02,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "BAC",
@@ -2795,7 +2795,7 @@
           "company": "比特币",
           "day_move": -0.29,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "DIS",
@@ -3127,7 +3127,7 @@
           "company": "比特币",
           "day_move": -3.21,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "NVDA",
@@ -3257,7 +3257,7 @@
           "company": "比特币",
           "day_move": 1.29,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "QCOM",
@@ -3470,7 +3470,7 @@
           "company": "比特币",
           "day_move": 1.33,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "QCOM",
@@ -3761,7 +3761,7 @@
           "company": "比特币",
           "day_move": -0.2,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "PFE",
@@ -4002,7 +4002,7 @@
           "company": "比特币",
           "day_move": -0.78,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "BAC",
@@ -4250,7 +4250,7 @@
           "company": "比特币",
           "day_move": 0.71,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "BAC",
@@ -4491,7 +4491,7 @@
           "company": "比特币",
           "day_move": -1.84,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "TSLA",
@@ -4592,7 +4592,7 @@
           "company": "比特币",
           "day_move": 1.63,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "INTC",
@@ -5001,7 +5001,7 @@
           "company": "比特币",
           "day_move": -2.29,
           "sentiment": "neutral",
-          "return_since": 2.9
+          "return_since": 3.08
         },
         {
           "ticker": "INTC",
@@ -14713,18 +14713,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-28",
       "entry_price": 73536.5547,
-      "latest_date": "2026-11-07",
-      "latest_price": 75666.7969,
-      "return_since": 2.9,
+      "latest_date": "2026-11-08",
+      "latest_price": 75797.9922,
+      "return_since": 3.08,
       "return_next_day": -0.22,
       "return_3d": 0.06,
       "return_1w": -9.29,
       "max_gain": 18.8,
       "max_drawdown": -21.47,
       "bench_since": -2.56,
-      "excess_since": 5.46,
-      "days_tracked": 163,
-      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 +2.9%；期间最高浮盈 +18.8%，最大回撤 -21.5%。 喊单后小幅走高。（同期标普 -2.6%，超额 +5.5%）"
+      "excess_since": 5.64,
+      "days_tracked": 164,
+      "kline_read": "次日 -0.2%、3日 +0.1%、一周 -9.3%、至今 +3.1%；期间最高浮盈 +18.8%，最大回撤 -21.5%。 喊单后小幅走高。（同期标普 -2.6%，超额 +5.6%）"
     },
     {
       "post_id": "38814",
@@ -14741,18 +14741,18 @@
       "matched": "Bitcoin",
       "entry_date": "2026-05-27",
       "entry_price": 74344.7031,
-      "latest_date": "2026-11-07",
-      "latest_price": 75666.7969,
-      "return_since": 1.78,
+      "latest_date": "2026-11-08",
+      "latest_price": 75797.9922,
+      "return_since": 1.95,
       "return_next_day": -1.09,
       "return_3d": -0.79,
       "return_1w": -4.07,
       "max_gain": 17.51,
       "max_drawdown": -22.32,
       "bench_since": -2.02,
-      "excess_since": 3.8,
-      "days_tracked": 164,
-      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 +1.8%；期间最高浮盈 +17.5%，最大回撤 -22.3%。 喊单后基本走平。（同期标普 -2.0%，超额 +3.8%）"
+      "excess_since": 3.97,
+      "days_tracked": 165,
+      "kline_read": "次日 -1.1%、3日 -0.8%、一周 -4.1%、至今 +1.9%；期间最高浮盈 +17.5%，最大回撤 -22.3%。 喊单后基本走平。（同期标普 -2.0%，超额 +4.0%）"
     },
     {
       "post_id": "38444",
@@ -22446,10 +22446,17 @@
         },
         {
           "date": "2026-11-07",
-          "o": 75741.0156,
-          "h": 76101.3047,
-          "l": 75599.6484,
-          "c": 75666.7969
+          "o": 75746.9297,
+          "h": 76138.6797,
+          "l": 75485.6875,
+          "c": 75747.5781
+        },
+        {
+          "date": "2026-11-08",
+          "o": 75753.7109,
+          "h": 76068.3203,
+          "l": 75585.3672,
+          "c": 75797.9922
         }
       ],
       "marks": [
